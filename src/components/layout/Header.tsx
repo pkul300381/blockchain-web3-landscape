@@ -108,17 +108,19 @@ export default function Header({
           href="https://opustechglobal.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex-shrink-0 flex items-center gap-2 pl-3 ml-1 border-l border-slate-200 hover:opacity-75 transition-opacity"
+          className="flex-shrink-0 flex items-center gap-2 pl-3 ml-1 border-l border-slate-200 hover:opacity-80 transition-opacity"
           aria-label="Powered by Opus Tech Global"
           title="Powered by Opus Tech Global"
         >
           <span className="text-[10px] text-slate-400 hidden lg:block whitespace-nowrap">Powered by</span>
-          <img
-            src="/opus-logo.png"
-            alt="Opus Tech Global"
-            height={22}
-            className="h-[22px] w-auto"
-          />
+          <div className="bg-slate-900 rounded-lg px-2.5 py-1">
+            <img
+              src="/opus-logo.png"
+              alt="Opus Tech Global"
+              height={20}
+              className="h-5 w-auto"
+            />
+          </div>
         </a>
       </div>
 
