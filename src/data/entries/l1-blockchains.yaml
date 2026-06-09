@@ -1,0 +1,525 @@
+category_id: l1-blockchains
+
+items:
+  - id: ethereum
+    name: Ethereum
+    logo: ""
+    homepage_url: https://ethereum.org
+    description: The foundational smart contract platform and the world's most widely-used programmable blockchain, secured by proof-of-stake consensus.
+    subcategory_id: evm-compatible
+    tags: [evm, smart-contracts, pos, defi-hub, nft-hub]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/ethereum/go-ethereum
+    docs_url: https://ethereum.org/developers
+    twitter: ethereum
+    discord_url: https://discord.gg/ethereum
+    founded_year: 2014
+    organization: Ethereum Foundation
+    blockchain_meta:
+      native_token: ETH
+      consensus: PoS
+      evm_compatible: true
+      layer: 1
+      mainnet_launch_year: 2015
+      tps_real: "15-30"
+      block_time_seconds: 12
+      finality_seconds: 768
+    market_data:
+      coingecko_id: ethereum
+    featured: true
+
+  - id: bitcoin
+    name: Bitcoin
+    logo: ""
+    homepage_url: https://bitcoin.org
+    description: The first and largest cryptocurrency by market cap, designed as a decentralized peer-to-peer digital currency and store of value.
+    subcategory_id: non-evm
+    tags: [pow, store-of-value, digital-gold, lightning-network]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/bitcoin/bitcoin
+    docs_url: https://developer.bitcoin.org
+    twitter: bitcoin
+    founded_year: 2009
+    blockchain_meta:
+      native_token: BTC
+      consensus: PoW
+      evm_compatible: false
+      layer: 1
+      mainnet_launch_year: 2009
+      tps_real: "3-7"
+      block_time_seconds: 600
+    market_data:
+      coingecko_id: bitcoin
+    featured: true
+
+  - id: solana
+    name: Solana
+    logo: ""
+    homepage_url: https://solana.com
+    description: High-performance blockchain using Proof of History consensus, offering extremely fast transaction throughput and low fees.
+    subcategory_id: non-evm
+    tags: [poh, high-throughput, low-fees, defi, nft]
+    maturity: mainnet
+    open_source: true
+    license: Apache-2.0
+    repo_url: https://github.com/solana-labs/solana
+    docs_url: https://docs.solana.com
+    twitter: solana
+    discord_url: https://discord.gg/solana
+    founded_year: 2017
+    organization: Solana Labs / Solana Foundation
+    blockchain_meta:
+      native_token: SOL
+      consensus: PoH
+      evm_compatible: false
+      layer: 1
+      mainnet_launch_year: 2020
+      tps_theoretical: 65000
+      tps_real: "2000-4000"
+      block_time_seconds: 0.4
+    market_data:
+      coingecko_id: solana
+    featured: true
+
+  - id: bnb-chain
+    name: BNB Chain
+    logo: ""
+    homepage_url: https://www.bnbchain.org
+    description: Binance-developed EVM-compatible blockchain offering high throughput and low transaction costs, powering a large DeFi and NFT ecosystem.
+    subcategory_id: evm-compatible
+    tags: [evm, binance, dpos, defi, low-fees]
+    maturity: mainnet
+    open_source: true
+    license: GPL-3.0
+    repo_url: https://github.com/bnb-chain/bsc
+    docs_url: https://docs.bnbchain.org
+    twitter: bnbchain
+    founded_year: 2020
+    organization: BNB Chain Foundation
+    blockchain_meta:
+      native_token: BNB
+      consensus: DPoS
+      evm_compatible: true
+      layer: 1
+      mainnet_launch_year: 2020
+      tps_real: "100-300"
+      block_time_seconds: 3
+    market_data:
+      coingecko_id: binancecoin
+    featured: true
+
+  - id: avalanche
+    name: Avalanche
+    logo: ""
+    homepage_url: https://www.avax.network
+    description: Multi-chain platform with three interoperable blockchains, offering sub-second finality and support for custom Subnet deployments.
+    subcategory_id: evm-compatible
+    tags: [evm, subnets, high-throughput, defi, enterprise]
+    maturity: mainnet
+    open_source: true
+    license: BSD-3-Clause
+    repo_url: https://github.com/ava-labs/avalanchego
+    docs_url: https://docs.avax.network
+    twitter: avax
+    discord_url: https://discord.gg/avalanche
+    founded_year: 2018
+    organization: Ava Labs
+    blockchain_meta:
+      native_token: AVAX
+      consensus: BFT
+      evm_compatible: true
+      layer: 1
+      mainnet_launch_year: 2020
+      tps_real: "4500"
+      finality_seconds: 1
+    market_data:
+      coingecko_id: avalanche-2
+    featured: true
+
+  - id: polygon-pos
+    name: Polygon PoS
+    logo: ""
+    homepage_url: https://polygon.technology
+    description: EVM-compatible sidechain with a proof-of-stake consensus mechanism, offering fast and inexpensive transactions with Ethereum security.
+    subcategory_id: evm-compatible
+    tags: [evm, sidechain, pos, defi, gaming]
+    maturity: mainnet
+    open_source: true
+    repo_url: https://github.com/maticnetwork/bor
+    docs_url: https://docs.polygon.technology
+    twitter: 0xpolygon
+    founded_year: 2017
+    organization: Polygon Labs
+    blockchain_meta:
+      native_token: MATIC
+      consensus: PoS
+      evm_compatible: true
+      layer: 1
+      mainnet_launch_year: 2020
+      tps_real: "65-7000"
+      block_time_seconds: 2
+    market_data:
+      coingecko_id: matic-network
+
+  - id: cardano
+    name: Cardano
+    logo: ""
+    homepage_url: https://cardano.org
+    description: Research-driven proof-of-stake blockchain built with formal verification and peer-reviewed academic foundations.
+    subcategory_id: non-evm
+    tags: [pos, research-driven, formal-verification, smart-contracts]
+    maturity: mainnet
+    open_source: true
+    license: Apache-2.0
+    repo_url: https://github.com/input-output-hk/cardano-node
+    docs_url: https://docs.cardano.org
+    twitter: cardano
+    founded_year: 2015
+    organization: IOHK / Cardano Foundation
+    blockchain_meta:
+      native_token: ADA
+      consensus: PoS
+      evm_compatible: false
+      layer: 1
+      mainnet_launch_year: 2017
+      tps_real: "250"
+    market_data:
+      coingecko_id: cardano
+
+  - id: polkadot
+    name: Polkadot
+    logo: ""
+    homepage_url: https://polkadot.network
+    description: Multi-chain network enabling parachains to share security while maintaining their own governance and specialization.
+    subcategory_id: non-evm
+    tags: [parachains, interoperability, shared-security, governance]
+    maturity: mainnet
+    open_source: true
+    license: GPL-3.0
+    repo_url: https://github.com/paritytech/polkadot-sdk
+    docs_url: https://wiki.polkadot.network
+    twitter: polkadot
+    discord_url: https://discord.gg/polkadot
+    founded_year: 2016
+    organization: Parity Technologies / Web3 Foundation
+    blockchain_meta:
+      native_token: DOT
+      consensus: PoS
+      evm_compatible: false
+      layer: 1
+      mainnet_launch_year: 2020
+    market_data:
+      coingecko_id: polkadot
+
+  - id: cosmos
+    name: Cosmos Hub
+    logo: ""
+    homepage_url: https://cosmos.network
+    description: The hub of the Cosmos ecosystem, enabling interoperability between sovereign blockchains via the IBC protocol.
+    subcategory_id: non-evm
+    tags: [ibc, interoperability, sovereign-chains, tendermint, bft]
+    maturity: mainnet
+    open_source: true
+    license: Apache-2.0
+    repo_url: https://github.com/cosmos/gaia
+    docs_url: https://docs.cosmos.network
+    twitter: cosmos
+    discord_url: https://discord.gg/cosmosnetwork
+    founded_year: 2016
+    organization: Interchain Foundation
+    blockchain_meta:
+      native_token: ATOM
+      consensus: BFT
+      evm_compatible: false
+      layer: 1
+      mainnet_launch_year: 2019
+    market_data:
+      coingecko_id: cosmos
+
+  - id: near-protocol
+    name: NEAR Protocol
+    logo: ""
+    homepage_url: https://near.org
+    description: Sharded proof-of-stake blockchain designed for developer usability, featuring a human-readable account model and low fees.
+    subcategory_id: non-evm
+    tags: [sharding, pos, developer-friendly, low-fees, defi]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/near/nearcore
+    docs_url: https://docs.near.org
+    twitter: nearprotocol
+    discord_url: https://discord.gg/near
+    founded_year: 2018
+    organization: NEAR Foundation
+    blockchain_meta:
+      native_token: NEAR
+      consensus: PoS
+      evm_compatible: false
+      layer: 1
+      mainnet_launch_year: 2020
+      tps_real: "1000-100000"
+      block_time_seconds: 1
+    market_data:
+      coingecko_id: near
+
+  - id: aptos
+    name: Aptos
+    logo: ""
+    homepage_url: https://aptoslabs.com
+    description: Layer-1 blockchain built by ex-Meta engineers using the Move programming language, designed for safety and high performance.
+    subcategory_id: non-evm
+    tags: [move-language, bft, high-performance, meta-alumni]
+    maturity: mainnet
+    open_source: true
+    license: Apache-2.0
+    repo_url: https://github.com/aptos-labs/aptos-core
+    docs_url: https://aptos.dev
+    twitter: Aptos
+    discord_url: https://discord.gg/aptos
+    founded_year: 2021
+    organization: Aptos Labs
+    blockchain_meta:
+      native_token: APT
+      consensus: BFT
+      evm_compatible: false
+      layer: 1
+      mainnet_launch_year: 2022
+      tps_theoretical: 160000
+      tps_real: "5000-10000"
+      block_time_seconds: 0.2
+    market_data:
+      coingecko_id: aptos
+
+  - id: sui
+    name: Sui
+    logo: ""
+    homepage_url: https://sui.io
+    description: Object-centric Layer-1 blockchain using the Move language with parallel transaction execution for scalability.
+    subcategory_id: non-evm
+    tags: [move-language, parallel-execution, object-model, meta-alumni]
+    maturity: mainnet
+    open_source: true
+    license: Apache-2.0
+    repo_url: https://github.com/MystenLabs/sui
+    docs_url: https://docs.sui.io
+    twitter: SuiNetwork
+    discord_url: https://discord.gg/sui
+    founded_year: 2021
+    organization: Mysten Labs
+    blockchain_meta:
+      native_token: SUI
+      consensus: BFT
+      evm_compatible: false
+      layer: 1
+      mainnet_launch_year: 2023
+      tps_theoretical: 120000
+      block_time_seconds: 0.5
+    market_data:
+      coingecko_id: sui
+
+  - id: algorand
+    name: Algorand
+    logo: ""
+    homepage_url: https://algorand.com
+    description: Pure proof-of-stake blockchain with instant finality, designed for high throughput and used extensively for tokenization and CBDCs.
+    subcategory_id: non-evm
+    tags: [pos, instant-finality, tokenization, cbdc, defi]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/algorand/go-algorand
+    docs_url: https://developer.algorand.org
+    twitter: algorand
+    founded_year: 2017
+    organization: Algorand Foundation
+    blockchain_meta:
+      native_token: ALGO
+      consensus: PoS
+      evm_compatible: false
+      layer: 1
+      mainnet_launch_year: 2019
+      tps_real: "1000-6000"
+      finality_seconds: 4
+    market_data:
+      coingecko_id: algorand
+
+  - id: hedera
+    name: Hedera
+    logo: ""
+    homepage_url: https://hedera.com
+    description: Enterprise-grade public distributed ledger using hashgraph consensus, governed by a council of global enterprises.
+    subcategory_id: non-evm
+    tags: [hashgraph, enterprise, governance-council, tokenization, high-throughput]
+    maturity: mainnet
+    open_source: true
+    license: Apache-2.0
+    repo_url: https://github.com/hashgraph/hedera-services
+    docs_url: https://docs.hedera.com
+    twitter: hedera
+    discord_url: https://discord.gg/hedera
+    founded_year: 2018
+    organization: Hedera Hashgraph
+    blockchain_meta:
+      native_token: HBAR
+      consensus: BFT
+      evm_compatible: true
+      layer: 1
+      mainnet_launch_year: 2019
+      tps_theoretical: 10000
+      finality_seconds: 3
+    market_data:
+      coingecko_id: hedera-hashgraph
+
+  - id: stellar
+    name: Stellar
+    logo: ""
+    homepage_url: https://stellar.org
+    description: Open network for storing and moving digital assets, designed for cross-border payments, remittance, and financial inclusion.
+    subcategory_id: non-evm
+    tags: [payments, remittance, cross-border, financial-inclusion, iso-20022]
+    maturity: mainnet
+    open_source: true
+    license: Apache-2.0
+    repo_url: https://github.com/stellar/stellar-core
+    docs_url: https://developers.stellar.org
+    twitter: StellarOrg
+    founded_year: 2014
+    organization: Stellar Development Foundation
+    blockchain_meta:
+      native_token: XLM
+      consensus: BFT
+      evm_compatible: false
+      layer: 1
+      mainnet_launch_year: 2015
+      tps_real: "1000-4000"
+      finality_seconds: 5
+    market_data:
+      coingecko_id: stellar
+
+  - id: monero
+    name: Monero
+    logo: ""
+    homepage_url: https://getmonero.org
+    description: Privacy-focused cryptocurrency using ring signatures, stealth addresses, and RingCT to provide untraceable transactions.
+    subcategory_id: privacy-focused
+    tags: [privacy, ring-signatures, pow, confidential-transactions, fungible]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/monero-project/monero
+    docs_url: https://www.getmonero.org/resources/developer-guides
+    twitter: monero
+    founded_year: 2014
+    blockchain_meta:
+      native_token: XMR
+      consensus: PoW
+      evm_compatible: false
+      layer: 1
+      mainnet_launch_year: 2014
+    market_data:
+      coingecko_id: monero
+
+  - id: secret-network
+    name: Secret Network
+    logo: ""
+    homepage_url: https://scrt.network
+    description: Privacy-preserving smart contract platform built on Cosmos, enabling confidential computation for DeFi and data privacy.
+    subcategory_id: privacy-focused
+    tags: [privacy, confidential-computing, cosmos, tee, defi-privacy]
+    maturity: mainnet
+    open_source: true
+    license: Apache-2.0
+    repo_url: https://github.com/scrtlabs/SecretNetwork
+    docs_url: https://docs.scrt.network
+    twitter: SecretNetwork
+    discord_url: https://discord.gg/secret-network
+    founded_year: 2020
+    organization: SCRT Labs
+    blockchain_meta:
+      native_token: SCRT
+      consensus: BFT
+      evm_compatible: false
+      layer: 1
+      mainnet_launch_year: 2020
+    market_data:
+      coingecko_id: secret
+
+  - id: celestia
+    name: Celestia
+    logo: ""
+    homepage_url: https://celestia.org
+    description: Modular blockchain network that decouples data availability from execution, enabling rollups to publish data cheaply.
+    subcategory_id: modular
+    tags: [modular, data-availability, rollups, da-layer]
+    maturity: mainnet
+    open_source: true
+    license: Apache-2.0
+    repo_url: https://github.com/celestiaorg/celestia-node
+    docs_url: https://docs.celestia.org
+    twitter: CelestiaOrg
+    discord_url: https://discord.gg/celestia
+    founded_year: 2019
+    organization: Celestia Labs
+    blockchain_meta:
+      native_token: TIA
+      consensus: BFT
+      evm_compatible: false
+      layer: 1
+      mainnet_launch_year: 2023
+    market_data:
+      coingecko_id: celestia
+    featured: true
+
+  - id: flow
+    name: Flow
+    logo: ""
+    homepage_url: https://flow.com
+    description: Developer-friendly blockchain built for NFTs, games, and consumer apps, originally created by the team behind CryptoKitties.
+    subcategory_id: non-evm
+    tags: [nft, gaming, consumer-apps, cadence-language, pos]
+    maturity: mainnet
+    open_source: true
+    license: Apache-2.0
+    repo_url: https://github.com/onflow/flow-go
+    docs_url: https://developers.flow.com
+    twitter: flow_blockchain
+    discord_url: https://discord.gg/flow
+    founded_year: 2018
+    organization: Dapper Labs
+    blockchain_meta:
+      native_token: FLOW
+      consensus: PoS
+      evm_compatible: false
+      layer: 1
+      mainnet_launch_year: 2020
+    market_data:
+      coingecko_id: flow
+
+  - id: tezos
+    name: Tezos
+    logo: ""
+    homepage_url: https://tezos.com
+    description: Self-amending proof-of-stake blockchain with on-chain governance, widely used for NFTs and institutional tokenization.
+    subcategory_id: non-evm
+    tags: [pos, on-chain-governance, self-amending, nft, institutional]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/tezos/tezos
+    docs_url: https://opentezos.com
+    twitter: tezos
+    founded_year: 2014
+    organization: Tezos Foundation
+    blockchain_meta:
+      native_token: XTZ
+      consensus: PoS
+      evm_compatible: false
+      layer: 1
+      mainnet_launch_year: 2018
+    market_data:
+      coingecko_id: tezos

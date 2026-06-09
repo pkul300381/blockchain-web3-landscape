@@ -1,0 +1,214 @@
+category_id: wallets
+
+items:
+  - id: metamask
+    name: MetaMask
+    logo: ""
+    homepage_url: https://metamask.io
+    description: The most widely used Ethereum browser extension wallet with 30M+ users, serving as the primary gateway to Ethereum dApps and DeFi.
+    subcategory_id: browser-extension
+    tags: [ethereum, evm, browser-extension, defi, nft, most-popular]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/MetaMask/metamask-extension
+    docs_url: https://docs.metamask.io
+    twitter: MetaMask
+    discord_url: https://discord.gg/metamask
+    founded_year: 2016
+    organization: Consensys
+    blockchain_meta:
+      wallet_type: [EOA, Browser Extension]
+      multi_chain: true
+      self_custodial: true
+    featured: true
+
+  - id: phantom
+    name: Phantom
+    logo: ""
+    homepage_url: https://phantom.app
+    description: Multi-chain wallet originally built for Solana, now supporting Ethereum, Polygon, and Bitcoin with a polished user experience.
+    subcategory_id: browser-extension
+    tags: [solana, ethereum, multichain, browser-extension, nft, defi]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://docs.phantom.app
+    twitter: phantom
+    discord_url: https://discord.gg/phantom
+    founded_year: 2021
+    organization: Phantom Technologies
+    blockchain_meta:
+      wallet_type: [EOA, Browser Extension, Mobile]
+      multi_chain: true
+      self_custodial: true
+    featured: true
+
+  - id: rabby
+    name: Rabby Wallet
+    logo: ""
+    homepage_url: https://rabby.io
+    description: Smart Ethereum wallet with transaction simulation, multi-chain support, and security checks to protect users from risky transactions.
+    subcategory_id: browser-extension
+    tags: [ethereum, evm, browser-extension, security, transaction-preview, multichain]
+    maturity: mainnet
+    open_source: true
+    license: GPL-3.0
+    repo_url: https://github.com/RabbyHub/Rabby
+    docs_url: https://rabby.io/docs
+    twitter: Rabby_io
+    discord_url: https://discord.gg/seFHtHpTEG
+    founded_year: 2021
+    organization: DeBank
+    blockchain_meta:
+      wallet_type: [EOA, Browser Extension]
+      multi_chain: true
+      self_custodial: true
+
+  - id: trust-wallet
+    name: Trust Wallet
+    logo: ""
+    homepage_url: https://trustwallet.com
+    description: Multi-chain mobile wallet supporting 100+ blockchains, acquired by Binance, popular for its broad asset support and ease of use.
+    subcategory_id: mobile
+    tags: [mobile, multichain, nft, defi, binance, self-custodial]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/trustwallet/wallet-core
+    docs_url: https://developer.trustwallet.com
+    twitter: TrustWallet
+    discord_url: https://discord.gg/trustwallet
+    founded_year: 2017
+    organization: Trust Wallet (Binance)
+    blockchain_meta:
+      wallet_type: [EOA, Mobile]
+      multi_chain: true
+      self_custodial: true
+    featured: true
+
+  - id: rainbow
+    name: Rainbow
+    logo: ""
+    homepage_url: https://rainbow.me
+    description: Beautifully designed Ethereum mobile wallet focused on NFT display, DeFi accessibility, and a delightful user experience.
+    subcategory_id: mobile
+    tags: [ethereum, mobile, nft, defi, design, self-custodial]
+    maturity: mainnet
+    open_source: true
+    license: GPL-3.0
+    repo_url: https://github.com/rainbow-me/rainbow
+    docs_url: https://rainbow.me/en/blog
+    twitter: rainbowdotme
+    discord_url: https://discord.gg/rainbow
+    founded_year: 2019
+    organization: Rainbow
+    blockchain_meta:
+      wallet_type: [EOA, Mobile]
+      multi_chain: true
+      self_custodial: true
+
+  - id: ledger
+    name: Ledger
+    logo: ""
+    homepage_url: https://ledger.com
+    description: The market-leading hardware wallet brand, offering Nano X and Nano S Plus cold storage devices trusted by millions worldwide.
+    subcategory_id: hardware
+    tags: [hardware, cold-storage, security, multichain, institutional]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://developers.ledger.com
+    twitter: Ledger
+    discord_url: https://discord.gg/ledger
+    founded_year: 2014
+    organization: Ledger SAS
+    blockchain_meta:
+      wallet_type: [Hardware]
+      hardware_wallet: true
+      multi_chain: true
+      self_custodial: true
+    featured: true
+
+  - id: trezor
+    name: Trezor
+    logo: ""
+    homepage_url: https://trezor.io
+    description: The original hardware wallet, open-source and trusted for cold storage of Bitcoin and 1000+ cryptocurrencies since 2014.
+    subcategory_id: hardware
+    tags: [hardware, cold-storage, open-source, bitcoin, multichain]
+    maturity: mainnet
+    open_source: true
+    license: GPL-3.0
+    repo_url: https://github.com/trezor/trezor-firmware
+    docs_url: https://developer.trezor.io
+    twitter: Trezor
+    discord_url: https://discord.gg/trezor
+    founded_year: 2013
+    organization: SatoshiLabs
+    blockchain_meta:
+      wallet_type: [Hardware]
+      hardware_wallet: true
+      multi_chain: true
+      self_custodial: true
+
+  - id: safe
+    name: Safe (Gnosis Safe)
+    logo: ""
+    homepage_url: https://safe.global
+    description: The leading smart contract multi-signature wallet managing over $100B+ in assets, essential for DAOs and institutional DeFi.
+    subcategory_id: smart-contract
+    tags: [multisig, smart-contract, dao, institutional, defi, account-abstraction]
+    maturity: mainnet
+    open_source: true
+    license: LGPL-3.0
+    repo_url: https://github.com/safe-global/safe-contracts
+    docs_url: https://docs.safe.global
+    twitter: safe
+    discord_url: https://discord.gg/safe
+    founded_year: 2018
+    organization: Safe Global
+    blockchain_meta:
+      wallet_type: [Smart Contract]
+      multi_chain: true
+      self_custodial: true
+    featured: true
+
+  - id: fireblocks
+    name: Fireblocks
+    logo: ""
+    homepage_url: https://fireblocks.com
+    description: Enterprise-grade digital asset custody platform using MPC-CMP technology, trusted by major financial institutions and exchanges.
+    subcategory_id: mpc-institutional
+    tags: [mpc, institutional, custody, enterprise, defi, api]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://developers.fireblocks.com
+    twitter: FireblocksHQ
+    discord_url: https://discord.gg/W88FHFrWcK
+    founded_year: 2018
+    organization: Fireblocks
+    blockchain_meta:
+      wallet_type: [MPC]
+      hardware_wallet: false
+      multi_chain: true
+      self_custodial: true
+    featured: true
+
+  - id: coinbase-wallet
+    name: Coinbase Wallet
+    logo: ""
+    homepage_url: https://wallet.coinbase.com
+    description: Self-custody mobile and browser extension wallet from Coinbase, with built-in dApp browser and NFT support.
+    subcategory_id: browser-extension
+    tags: [coinbase, self-custodial, mobile, browser-extension, defi, nft]
+    maturity: mainnet
+    open_source: true
+    repo_url: https://github.com/coinbase/coinbase-wallet-sdk
+    docs_url: https://docs.cloud.coinbase.com/wallet-sdk
+    twitter: CoinbaseWallet
+    discord_url: https://discord.gg/cdp
+    founded_year: 2018
+    organization: Coinbase
+    blockchain_meta:
+      wallet_type: [EOA, Browser Extension, Mobile]
+      multi_chain: true
+      self_custodial: true

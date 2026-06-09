@@ -1,0 +1,156 @@
+category_id: tokenization
+
+items:
+  - id: securitize
+    name: Securitize
+    logo: ""
+    homepage_url: https://securitize.io
+    description: End-to-end tokenized securities platform for issuance, compliance, and trading, used by BlackRock's BUIDL fund and other institutions.
+    subcategory_id: securities-funds
+    tags: [securities, tokenization, regulated, institutional, blackrock, compliant]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://securitize.io/developers
+    twitter: securitize
+    discord_url: https://discord.gg/securitize
+    founded_year: 2017
+    organization: Securitize Markets
+    featured: true
+
+  - id: centrifuge-tokenization
+    name: Centrifuge
+    logo: ""
+    homepage_url: https://centrifuge.io
+    description: Decentralized platform for issuing tokenized real-world assets on-chain, enabling protocol-native RWA financing for DeFi.
+    subcategory_id: securities-funds
+    tags: [rwa, tokenization, defi, real-world-assets, on-chain]
+    maturity: mainnet
+    open_source: true
+    license: Apache-2.0
+    repo_url: https://github.com/centrifuge
+    docs_url: https://docs.centrifuge.io
+    twitter: centrifuge
+    discord_url: https://discord.gg/yEi3xe385R
+    founded_year: 2017
+    organization: Centrifuge GmbH
+
+  - id: polymath
+    name: Polymath
+    logo: ""
+    homepage_url: https://polymath.network
+    description: Blockchain platform and token standard (ERC-1400) designed specifically for security token issuance and compliance.
+    subcategory_id: securities-funds
+    tags: [securities, tokenization, erc-1400, compliance, regulated]
+    maturity: mainnet
+    open_source: true
+    repo_url: https://github.com/PolymathNetwork
+    docs_url: https://developers.polymath.network
+    twitter: polymathnetwork
+    discord_url: https://discord.gg/uWMJFyZ
+    founded_year: 2017
+    organization: Polymath
+
+  - id: paxg-token
+    name: PAX Gold (PAXG)
+    logo: ""
+    homepage_url: https://paxos.com/paxgold
+    description: Gold-backed digital asset where each token represents one troy ounce of LBMA gold bar held in Brink's vaults by Paxos.
+    subcategory_id: commodities
+    tags: [gold, commodity, tokenized, rwa, regulated, paxos]
+    maturity: mainnet
+    open_source: false
+    twitter: PaxosGlobal
+    founded_year: 2019
+    organization: Paxos Trust Company
+    blockchain_meta:
+      supported_chains: [ethereum, solana]
+    market_data:
+      coingecko_id: pax-gold
+
+  - id: realtoken
+    name: RealT
+    logo: ""
+    homepage_url: https://realt.co
+    description: US real estate tokenization platform allowing fractional ownership of rental properties via ERC-20 tokens with daily rental income.
+    subcategory_id: real-estate
+    tags: [real-estate, tokenization, fractional-ownership, rental-income, rwa]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://docs.realt.co
+    twitter: RealTPlatform
+    discord_url: https://discord.gg/zxs5xPEeQ4
+    founded_year: 2019
+    organization: RealT
+    blockchain_meta:
+      supported_chains: [ethereum, gnosis-chain]
+
+  - id: toucan-protocol
+    name: Toucan Protocol
+    logo: ""
+    homepage_url: https://toucan.earth
+    description: Infrastructure for bringing carbon credits on-chain, enabling transparent and composable carbon markets in DeFi.
+    subcategory_id: carbon-credits
+    tags: [carbon-credits, climate, rwa, defi, polygon, sustainability]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/ToucanProtocol/dynamic-fee-pools
+    docs_url: https://docs.toucan.earth
+    twitter: ToucanProtocol
+    discord_url: https://discord.gg/toucan
+    founded_year: 2021
+    organization: Toucan Protocol Association
+    blockchain_meta:
+      supported_chains: [polygon, celo]
+
+  - id: klima-dao
+    name: KlimaDAO
+    logo: ""
+    homepage_url: https://klimadao.finance
+    description: DAO using DeFi mechanics to drive demand for tokenized carbon credits, creating a carbon-backed currency on Polygon.
+    subcategory_id: carbon-credits
+    tags: [carbon-credits, dao, defi, polygon, climate, sustainability]
+    maturity: mainnet
+    open_source: true
+    repo_url: https://github.com/KlimaDAO/klimadao-solidity
+    docs_url: https://docs.klimadao.finance
+    twitter: KlimaDAO
+    discord_url: https://discord.gg/klima
+    founded_year: 2021
+    organization: KlimaDAO
+    blockchain_meta:
+      supported_chains: [polygon]
+
+  - id: story-protocol
+    name: Story Protocol
+    logo: ""
+    homepage_url: https://storyprotocol.xyz
+    description: Blockchain and protocol for programmable IP, enabling creators to register, license, and monetize intellectual property on-chain.
+    subcategory_id: intellectual-property
+    tags: [ip, intellectual-property, licensing, creator-economy, royalties]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/storyprotocol/protocol-core-v1
+    docs_url: https://docs.storyprotocol.xyz
+    twitter: storyprotocol
+    discord_url: https://discord.gg/storyprotocol
+    founded_year: 2023
+    organization: Story Foundation
+
+  - id: ondo-tokenization
+    name: Ondo Finance (RWA)
+    logo: ""
+    homepage_url: https://ondo.finance
+    description: Issues tokenized short-term US Treasuries (OUSG, USDY) giving DeFi users access to institutional-grade yield-bearing RWAs.
+    subcategory_id: securities-funds
+    tags: [rwa, tokenized-treasuries, institutional, yield, regulated]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://docs.ondo.finance
+    twitter: OndoFinance
+    discord_url: https://discord.gg/ondofinance
+    founded_year: 2021
+    organization: Ondo Finance
+    blockchain_meta:
+      supported_chains: [ethereum, polygon, solana]

@@ -1,0 +1,177 @@
+category_id: enterprise-dlt
+
+items:
+  - id: hyperledger-fabric
+    name: Hyperledger Fabric
+    logo: ""
+    homepage_url: https://www.hyperledger.org/use/fabric
+    description: Enterprise-grade permissioned blockchain framework by the Linux Foundation, widely deployed for supply chain, finance, and trade finance.
+    subcategory_id: permissioned-ledgers
+    tags: [permissioned, enterprise, supply-chain, linux-foundation, modular, private]
+    maturity: mainnet
+    open_source: true
+    license: Apache-2.0
+    repo_url: https://github.com/hyperledger/fabric
+    docs_url: https://hyperledger-fabric.readthedocs.io
+    twitter: Hyperledger
+    discord_url: https://discord.gg/hyperledger
+    founded_year: 2015
+    organization: Linux Foundation / Hyperledger
+    featured: true
+
+  - id: r3-corda
+    name: R3 Corda
+    logo: ""
+    homepage_url: https://r3.com/corda
+    description: Enterprise blockchain platform designed for regulated industries, enabling direct bilateral transactions with no unnecessary data sharing.
+    subcategory_id: permissioned-ledgers
+    tags: [permissioned, enterprise, finance, regulated, bilateral, privacy]
+    maturity: mainnet
+    open_source: true
+    license: Apache-2.0
+    repo_url: https://github.com/corda/corda
+    docs_url: https://docs.r3.com
+    twitter: inside_r3
+    discord_url: https://discord.gg/R3Corda
+    founded_year: 2014
+    organization: R3
+    featured: true
+
+  - id: hyperledger-besu
+    name: Hyperledger Besu
+    logo: ""
+    homepage_url: https://www.hyperledger.org/use/besu
+    description: Enterprise Ethereum client under Hyperledger supporting both public and permissioned networks, widely used for CBDC development.
+    subcategory_id: permissioned-ledgers
+    tags: [ethereum, permissioned, enterprise, cbdc, evm, linux-foundation]
+    maturity: mainnet
+    open_source: true
+    license: Apache-2.0
+    repo_url: https://github.com/hyperledger/besu
+    docs_url: https://besu.hyperledger.org
+    twitter: Hyperledger
+    discord_url: https://discord.gg/hyperledger
+    founded_year: 2019
+    organization: Linux Foundation / Hyperledger
+    blockchain_meta:
+      evm_compatible: true
+
+  - id: kaleido
+    name: Kaleido
+    logo: ""
+    homepage_url: https://kaleido.io
+    description: Managed enterprise blockchain platform simplifying deployment of Ethereum and Hyperledger networks with DevOps, security, and compliance tools.
+    subcategory_id: enterprise-platforms
+    tags: [enterprise, managed, hyperledger, ethereum, compliance, paas]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://docs.kaleido.io
+    twitter: Kaleido_io
+    founded_year: 2018
+    organization: Kaleido (Consensys)
+
+  - id: vechain
+    name: VeChain
+    logo: ""
+    homepage_url: https://vechain.org
+    description: Enterprise-focused L1 blockchain specializing in supply chain provenance, sustainability tracking, and product lifecycle management.
+    subcategory_id: supply-chain
+    tags: [supply-chain, enterprise, sustainability, iot, provenance, poa]
+    maturity: mainnet
+    open_source: true
+    license: LGPL-3.0
+    repo_url: https://github.com/vechain/thor
+    docs_url: https://docs.vechain.org
+    twitter: vechainofficial
+    discord_url: https://discord.gg/vechain
+    founded_year: 2015
+    organization: VeChain Foundation
+    blockchain_meta:
+      native_token: VET
+      consensus: PoA
+      evm_compatible: true
+      layer: 1
+    market_data:
+      coingecko_id: vechain
+    featured: true
+
+  - id: xrp-ledger
+    name: XRP Ledger
+    logo: ""
+    homepage_url: https://xrpl.org
+    description: Decentralized public blockchain optimized for payments, asset issuance, and DeFi with 3-5 second settlement and near-zero fees.
+    subcategory_id: financial-infrastructure
+    tags: [payments, cross-border, fast-settlement, cbdc, defi, iso-20022]
+    maturity: mainnet
+    open_source: true
+    license: ISC
+    repo_url: https://github.com/XRPLF/rippled
+    docs_url: https://xrpl.org/docs.html
+    twitter: Ripple
+    discord_url: https://discord.gg/sfX3ERAMjH
+    founded_year: 2012
+    organization: Ripple Labs
+    blockchain_meta:
+      native_token: XRP
+      consensus: BFT
+      evm_compatible: false
+      layer: 1
+      mainnet_launch_year: 2012
+      tps_real: "1500"
+      finality_seconds: 4
+    market_data:
+      coingecko_id: ripple
+    featured: true
+
+  - id: quant-overledger
+    name: Quant Overledger
+    logo: ""
+    homepage_url: https://quant.network
+    description: Enterprise interoperability platform connecting multiple blockchains and legacy systems via its Overledger OS and Quant token.
+    subcategory_id: financial-infrastructure
+    tags: [interoperability, enterprise, multi-chain, swift, iso-20022, cbdc]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://docs.overledger.io
+    twitter: quant_network
+    discord_url: https://discord.gg/quant
+    founded_year: 2015
+    organization: Quant Network
+
+  - id: digital-asset-daml
+    name: Digital Asset (DAML)
+    logo: ""
+    homepage_url: https://digitalasset.com
+    description: Smart contract language and platform for enterprise distributed applications, used for tokenized assets and financial infrastructure.
+    subcategory_id: cbdc-platforms
+    tags: [daml, enterprise, financial-infrastructure, cbdc, tokenization, haskell]
+    maturity: mainnet
+    open_source: true
+    license: Apache-2.0
+    repo_url: https://github.com/digital-asset/daml
+    docs_url: https://docs.daml.com
+    twitter: digitalasset
+    discord_url: https://discord.gg/digitalasset
+    founded_year: 2014
+    organization: Digital Asset
+
+  - id: origin-trail
+    name: OriginTrail
+    logo: ""
+    homepage_url: https://origintrail.io
+    description: Decentralized knowledge graph for supply chains, enabling trusted and verified data sharing for physical world assets.
+    subcategory_id: supply-chain
+    tags: [supply-chain, knowledge-graph, data-integrity, decentralized, semantic-web]
+    maturity: mainnet
+    open_source: true
+    license: Apache-2.0
+    repo_url: https://github.com/OriginTrail
+    docs_url: https://docs.origintrail.io
+    twitter: origin_trail
+    discord_url: https://discord.gg/FCgYk2S
+    founded_year: 2011
+    organization: Trace Labs
+    blockchain_meta:
+      native_token: TRAC
+    market_data:
+      coingecko_id: origintrail

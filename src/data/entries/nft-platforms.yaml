@@ -1,0 +1,146 @@
+category_id: nft-platforms
+
+items:
+  - id: opensea
+    name: OpenSea
+    logo: ""
+    homepage_url: https://opensea.io
+    description: The largest NFT marketplace by volume, supporting Ethereum, Polygon, Solana, and more with a wide range of digital collectibles.
+    subcategory_id: marketplaces
+    tags: [nft, marketplace, ethereum, polygon, solana, largest]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://docs.opensea.io
+    twitter: opensea
+    discord_url: https://discord.gg/opensea
+    founded_year: 2017
+    organization: OpenSea
+    featured: true
+
+  - id: blur
+    name: Blur
+    logo: ""
+    homepage_url: https://blur.io
+    description: Professional NFT trading platform with zero trading fees, real-time price feeds, and portfolio analytics designed for power traders.
+    subcategory_id: marketplaces
+    tags: [nft, marketplace, ethereum, zero-fees, professional, trading]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://docs.blur.io
+    twitter: blur_io
+    discord_url: https://discord.gg/blur
+    founded_year: 2022
+    organization: Blur
+
+  - id: magic-eden
+    name: Magic Eden
+    logo: ""
+    homepage_url: https://magiceden.io
+    description: The leading NFT marketplace on Solana, expanded to Ethereum and Bitcoin Ordinals, known for gaming and high-volume collections.
+    subcategory_id: marketplaces
+    tags: [nft, marketplace, solana, ethereum, bitcoin-ordinals, gaming]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://docs.magiceden.io
+    twitter: MagicEden
+    discord_url: https://discord.gg/magiceden
+    founded_year: 2021
+    organization: Magic Eden
+    featured: true
+
+  - id: manifold
+    name: Manifold
+    logo: ""
+    homepage_url: https://manifold.xyz
+    description: Creator-first smart contract platform enabling artists and brands to deploy fully owned NFT contracts with custom royalties.
+    subcategory_id: creation-tools
+    tags: [nft, creator-tools, smart-contracts, royalties, ethereum, customizable]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/manifoldxyz/creator-core-solidity
+    docs_url: https://docs.manifold.xyz
+    twitter: manifoldxyz
+    discord_url: https://discord.gg/manifold
+    founded_year: 2021
+    organization: Manifold
+    featured: true
+
+  - id: zora
+    name: Zora
+    logo: ""
+    homepage_url: https://zora.co
+    description: Creator-owned NFT minting protocol and marketplace on its own L2, enabling free minting and protocol-level creator monetization.
+    subcategory_id: creation-tools
+    tags: [nft, creator, minting, l2, protocol, ethereum]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/ourzora/zora-protocol
+    docs_url: https://docs.zora.co
+    twitter: ourZORA
+    discord_url: https://discord.gg/zora
+    founded_year: 2020
+    organization: Zora
+
+  - id: axie-infinity
+    name: Axie Infinity
+    logo: ""
+    homepage_url: https://axieinfinity.com
+    description: Pioneer play-to-earn blockchain game where players collect, breed, and battle fantasy creatures called Axies on the Ronin network.
+    subcategory_id: gaming-metaverse
+    tags: [gaming, nft, play-to-earn, ronin, axie, metaverse]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://whitepaper.axieinfinity.com
+    twitter: AxieInfinity
+    discord_url: https://discord.gg/axie
+    founded_year: 2018
+    organization: Sky Mavis
+    featured: true
+
+  - id: the-sandbox
+    name: The Sandbox
+    logo: ""
+    homepage_url: https://sandbox.game
+    description: Blockchain-based virtual world where players can buy, develop, and monetize virtual land and gaming experiences using SAND tokens.
+    subcategory_id: gaming-metaverse
+    tags: [metaverse, virtual-world, land-nft, gaming, polygon, voxel]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://sandboxgame.gitbook.io
+    twitter: TheSandboxGame
+    discord_url: https://discord.gg/vAe4zvY
+    founded_year: 2011
+    organization: Animoca Brands
+
+  - id: alchemy-nft-api
+    name: Alchemy NFT API
+    logo: ""
+    homepage_url: https://alchemy.com/nft
+    description: Comprehensive NFT API for fetching metadata, ownership, transfers, and floor prices across major blockchains with a single call.
+    subcategory_id: nft-infrastructure
+    tags: [nft, api, metadata, multichain, developer-tools, alchemy]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://docs.alchemy.com/reference/nft-api-quickstart
+    twitter: AlchemyPlatform
+    discord_url: https://discord.gg/alchemyplatform
+    founded_year: 2021
+    organization: Alchemy Insights Inc.
+
+  - id: rarible
+    name: Rarible
+    logo: ""
+    homepage_url: https://rarible.com
+    description: Community-owned NFT marketplace and protocol enabling creators to mint, sell, and manage NFTs with governance via RARI token.
+    subcategory_id: marketplaces
+    tags: [nft, marketplace, decentralized, dao, multi-chain, protocol]
+    maturity: mainnet
+    open_source: true
+    repo_url: https://github.com/rarible/protocol
+    docs_url: https://multichain.redoc.ly
+    twitter: rarible
+    discord_url: https://discord.gg/zqsZsEWBbN
+    founded_year: 2020
+    organization: Rarible DAO

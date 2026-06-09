@@ -1,0 +1,171 @@
+category_id: identity-dao
+
+items:
+  - id: ens
+    name: ENS (Ethereum Name Service)
+    logo: ""
+    homepage_url: https://ens.domains
+    description: Decentralized naming system mapping human-readable .eth names to Ethereum addresses, IPFS hashes, and other resources.
+    subcategory_id: decentralized-identity
+    tags: [naming, identity, ethereum, domain-names, nft, decentralized]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/ensdomains/ens-contracts
+    docs_url: https://docs.ens.domains
+    twitter: ensdomains
+    discord_url: https://discord.gg/ensdomains
+    founded_year: 2017
+    organization: ENS Labs
+    featured: true
+
+  - id: lens-protocol
+    name: Lens Protocol
+    logo: ""
+    homepage_url: https://lens.xyz
+    description: Composable decentralized social graph protocol on Polygon, enabling users to own their social connections and content.
+    subcategory_id: decentralized-identity
+    tags: [social-graph, decentralized-social, nft, polygon, composable, identity]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/lens-protocol/lens-protocol
+    docs_url: https://docs.lens.xyz
+    twitter: LensProtocol
+    discord_url: https://discord.gg/lensprotocol
+    founded_year: 2022
+    organization: Aave Companies
+    blockchain_meta:
+      supported_chains: [polygon]
+
+  - id: worldcoin
+    name: World ID
+    logo: ""
+    homepage_url: https://worldcoin.org
+    description: Privacy-preserving proof-of-personhood protocol using iris biometrics to verify humans without revealing personal information.
+    subcategory_id: decentralized-identity
+    tags: [proof-of-personhood, identity, privacy, biometric, zk-proofs]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/worldcoin/world-id-contracts
+    docs_url: https://docs.worldcoin.org
+    twitter: worldcoin
+    discord_url: https://discord.gg/worldcoin
+    founded_year: 2019
+    organization: Tools for Humanity
+
+  - id: snapshot
+    name: Snapshot
+    logo: ""
+    homepage_url: https://snapshot.org
+    description: Off-chain, gasless voting platform used by thousands of DAOs for token-weighted governance proposals and community decisions.
+    subcategory_id: dao-tooling
+    tags: [dao, governance, voting, gasless, off-chain, multichain]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/snapshot-labs/snapshot
+    docs_url: https://docs.snapshot.org
+    twitter: SnapshotLabs
+    discord_url: https://discord.gg/snapshot
+    founded_year: 2020
+    organization: Snapshot Labs
+    featured: true
+
+  - id: tally
+    name: Tally
+    logo: ""
+    homepage_url: https://tally.xyz
+    description: On-chain governance platform supporting Governor Bravo, OpenZeppelin Governor, and custom governance contracts for DAOs.
+    subcategory_id: dao-tooling
+    tags: [dao, governance, on-chain, governor, voting, delegates]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://docs.tally.xyz
+    twitter: tallyxyz
+    discord_url: https://discord.gg/ufh9KMEgBH
+    founded_year: 2020
+    organization: Tally
+
+  - id: aragon
+    name: Aragon
+    logo: ""
+    homepage_url: https://aragon.org
+    description: Modular DAO framework and infrastructure providing smart contract governance, permission management, and community tools.
+    subcategory_id: dao-tooling
+    tags: [dao, governance, framework, modular, permissions, voting]
+    maturity: mainnet
+    open_source: true
+    license: GPL-3.0
+    repo_url: https://github.com/aragon/osx
+    docs_url: https://devs.aragon.org
+    twitter: AragonProject
+    discord_url: https://discord.gg/eqQJkdp
+    founded_year: 2016
+    organization: Aragon Association
+
+  - id: privy
+    name: Privy
+    logo: ""
+    homepage_url: https://privy.io
+    description: Embedded wallet and authentication SDK enabling seamless Web3 onboarding with email, social login, and wallet-as-a-service.
+    subcategory_id: access-control
+    tags: [auth, embedded-wallet, onboarding, sdk, web3-login, developer-tools]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://docs.privy.io
+    twitter: privy_io
+    discord_url: https://discord.gg/privy
+    founded_year: 2022
+    organization: Privy
+    featured: true
+
+  - id: dynamic-xyz
+    name: Dynamic
+    logo: ""
+    homepage_url: https://dynamic.xyz
+    description: Powerful Web3 auth and wallet management platform for onboarding users across wallets, social logins, and passkeys.
+    subcategory_id: access-control
+    tags: [auth, wallet-management, onboarding, multichain, sdk, enterprise]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://docs.dynamic.xyz
+    twitter: dynamic_xyz
+    discord_url: https://discord.gg/dynamics
+    founded_year: 2021
+    organization: Dynamic Labs
+
+  - id: lit-protocol
+    name: Lit Protocol
+    logo: ""
+    homepage_url: https://litprotocol.com
+    description: Decentralized key management network for conditional access control, encrypting data with on-chain conditions as the decryption key.
+    subcategory_id: access-control
+    tags: [access-control, encryption, programmable-keys, defi, nft, privacy]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/LIT-Protocol/js-sdk
+    docs_url: https://developer.litprotocol.com
+    twitter: LitProtocol
+    discord_url: https://discord.gg/GnAHQtNVAZ
+    founded_year: 2021
+    organization: Lit Protocol
+
+  - id: gitcoin-passport
+    name: Gitcoin Passport
+    logo: ""
+    homepage_url: https://passport.gitcoin.co
+    description: Identity verification aggregator combining on-chain and off-chain attestations to create a sybil-resistant proof of personhood.
+    subcategory_id: reputation-credentials
+    tags: [sybil-resistance, identity, verifiable-credentials, public-goods, gitcoin]
+    maturity: mainnet
+    open_source: true
+    license: GPL-3.0
+    repo_url: https://github.com/passportxyz/passport
+    docs_url: https://docs.passport.gitcoin.co
+    twitter: gitcoin
+    discord_url: https://discord.gg/b5PEjyVFXT
+    founded_year: 2022
+    organization: Gitcoin

@@ -1,0 +1,153 @@
+category_id: oracles
+
+items:
+  - id: chainlink
+    name: Chainlink
+    logo: ""
+    homepage_url: https://chain.link
+    description: The industry-standard decentralized oracle network providing secure, reliable, and tamper-proof price feeds and off-chain data to smart contracts.
+    subcategory_id: price-feeds
+    tags: [price-feeds, vrf, any-api, cross-chain, ccip, most-used]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/smartcontractkit/chainlink
+    docs_url: https://docs.chain.link
+    twitter: chainlink
+    discord_url: https://discord.gg/chainlink
+    founded_year: 2017
+    organization: Chainlink Labs
+    blockchain_meta:
+      oracle_type: Push
+      data_feeds_count: 1000
+      supported_chains: [ethereum, polygon, bnb-chain, avalanche, arbitrum, optimism, base, solana]
+    featured: true
+
+  - id: pyth-network
+    name: Pyth Network
+    logo: ""
+    homepage_url: https://pyth.network
+    description: High-frequency, pull-based oracle network delivering sub-second price data directly from first-party data sources like exchanges and trading firms.
+    subcategory_id: price-feeds
+    tags: [price-feeds, pull-oracle, high-frequency, solana, multichain, institutional]
+    maturity: mainnet
+    open_source: true
+    license: Apache-2.0
+    repo_url: https://github.com/pyth-network/pyth-sdk-rs
+    docs_url: https://docs.pyth.network
+    twitter: PythNetwork
+    discord_url: https://discord.gg/pythnetwork
+    founded_year: 2021
+    organization: Pyth Data Association
+    blockchain_meta:
+      oracle_type: Pull
+      data_feeds_count: 500
+      supported_chains: [solana, ethereum, bnb-chain, polygon, avalanche, arbitrum, optimism]
+    featured: true
+
+  - id: band-protocol
+    name: Band Protocol
+    logo: ""
+    homepage_url: https://bandprotocol.com
+    description: Cross-chain data oracle platform aggregating and connecting real-world data to smart contracts across multiple blockchains.
+    subcategory_id: price-feeds
+    tags: [price-feeds, cross-chain, cosmos, oracle, multichain]
+    maturity: mainnet
+    open_source: true
+    license: Apache-2.0
+    repo_url: https://github.com/bandprotocol/chain
+    docs_url: https://docs.bandchain.org
+    twitter: BandProtocol
+    discord_url: https://discord.gg/3t4bsY7
+    founded_year: 2017
+    organization: Band Protocol
+    blockchain_meta:
+      oracle_type: Push
+      supported_chains: [ethereum, bnb-chain, polygon, cosmos, avalanche]
+    market_data:
+      coingecko_id: band-protocol
+
+  - id: api3
+    name: API3
+    logo: ""
+    homepage_url: https://api3.org
+    description: First-party oracle solution enabling API providers to operate their own oracle nodes, eliminating third-party relay trust.
+    subcategory_id: cross-chain-data
+    tags: [first-party, oracle, airnode, vrf, dapis, qrng]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/api3dao/api3-contracts
+    docs_url: https://docs.api3.org
+    twitter: API3DAO
+    discord_url: https://discord.gg/qnRrcfnm5W
+    founded_year: 2020
+    organization: API3 DAO
+    blockchain_meta:
+      oracle_type: Pull
+      supported_chains: [ethereum, polygon, bnb-chain, avalanche, arbitrum, optimism]
+    market_data:
+      coingecko_id: api3
+
+  - id: chainlink-vrf
+    name: Chainlink VRF
+    logo: ""
+    homepage_url: https://docs.chain.link/vrf
+    description: Verifiable Random Function service providing cryptographically secure and provably fair randomness for smart contracts.
+    subcategory_id: vrf
+    tags: [vrf, randomness, gaming, nft, lottery, chainlink]
+    maturity: mainnet
+    open_source: true
+    repo_url: https://github.com/smartcontractkit/chainlink
+    docs_url: https://docs.chain.link/vrf
+    twitter: chainlink
+    discord_url: https://discord.gg/chainlink
+    founded_year: 2020
+    organization: Chainlink Labs
+    blockchain_meta:
+      oracle_type: Push
+      supported_chains: [ethereum, polygon, bnb-chain, avalanche, arbitrum, optimism]
+
+  - id: uma-protocol
+    name: UMA Protocol
+    logo: ""
+    homepage_url: https://uma.xyz
+    description: Optimistic oracle protocol enabling smart contracts to quickly receive any off-chain data using an escalation game dispute mechanism.
+    subcategory_id: cross-chain-data
+    tags: [optimistic-oracle, dispute-mechanism, custom-data, defi, cross-chain]
+    maturity: mainnet
+    open_source: true
+    license: AGPL-3.0
+    repo_url: https://github.com/UMAprotocol/protocol
+    docs_url: https://docs.uma.xyz
+    twitter: UMAprotocol
+    discord_url: https://discord.gg/jsb9XQJ
+    founded_year: 2018
+    organization: Risk Labs
+    blockchain_meta:
+      oracle_type: Pull
+      supported_chains: [ethereum, polygon, optimism, arbitrum]
+    market_data:
+      coingecko_id: uma
+
+  - id: tellor
+    name: Tellor
+    logo: ""
+    homepage_url: https://tellor.io
+    description: Decentralized oracle protocol using a proof-of-work mining mechanism where reporters compete to provide accurate off-chain data.
+    subcategory_id: cross-chain-data
+    tags: [oracle, proof-of-work, decentralized, disputes, ethereum]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/tellor-io/tellor3
+    docs_url: https://docs.tellor.io
+    twitter: WeAreTellor
+    discord_url: https://discord.gg/n7drGjh
+    founded_year: 2019
+    organization: Tellor Inc.
+    blockchain_meta:
+      oracle_type: Push
+      supported_chains: [ethereum, polygon, bnb-chain, arbitrum]
+    market_data:
+      coingecko_id: tellor

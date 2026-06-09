@@ -1,0 +1,190 @@
+category_id: data-analytics
+
+items:
+  - id: dune-analytics
+    name: Dune Analytics
+    logo: ""
+    homepage_url: https://dune.com
+    description: Community-driven analytics platform where anyone can query, visualize, and share blockchain data using SQL-like queries.
+    subcategory_id: on-chain-analytics
+    tags: [analytics, sql, dashboards, community, ethereum, multichain]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://docs.dune.com
+    twitter: DuneAnalytics
+    discord_url: https://discord.gg/ErrzwBz
+    founded_year: 2018
+    organization: Dune Analytics AS
+    featured: true
+
+  - id: nansen
+    name: Nansen
+    logo: ""
+    homepage_url: https://nansen.ai
+    description: Blockchain analytics platform combining on-chain data with wallet labeling to identify smart money and market trends.
+    subcategory_id: on-chain-analytics
+    tags: [analytics, wallet-labeling, smart-money, nft, defi, institutional]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://docs.nansen.ai
+    twitter: nansen_ai
+    discord_url: https://discord.gg/nansen
+    founded_year: 2020
+    organization: Nansen
+    featured: true
+
+  - id: defillama
+    name: DefiLlama
+    logo: ""
+    homepage_url: https://defillama.com
+    description: The largest open-source DeFi TVL aggregator tracking hundreds of protocols across all major blockchains with free public APIs.
+    subcategory_id: on-chain-analytics
+    tags: [tvl, defi, open-source, multichain, analytics, free-api]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/DefiLlama/DefiLlama-Adapters
+    docs_url: https://defillama.com/docs/api
+    twitter: DefiLlama
+    discord_url: https://discord.gg/buPFYXzDDd
+    founded_year: 2020
+    featured: true
+
+  - id: etherscan
+    name: Etherscan
+    logo: ""
+    homepage_url: https://etherscan.io
+    description: The leading Ethereum block explorer and analytics platform, providing transaction, address, and smart contract information.
+    subcategory_id: block-explorers
+    tags: [block-explorer, ethereum, transactions, smart-contracts, analytics]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://docs.etherscan.io
+    twitter: etherscan
+    discord_url: https://discord.gg/5e4wdmFnUr
+    founded_year: 2015
+    organization: Etherscan
+    featured: true
+
+  - id: blockscout
+    name: Blockscout
+    logo: ""
+    homepage_url: https://blockscout.com
+    description: Open-source blockchain explorer for Ethereum, EVM chains, and rollups, widely used by L2s and app chains as their default explorer.
+    subcategory_id: block-explorers
+    tags: [block-explorer, open-source, evm, l2, self-hosted]
+    maturity: mainnet
+    open_source: true
+    license: GPL-3.0
+    repo_url: https://github.com/blockscout/blockscout
+    docs_url: https://docs.blockscout.com
+    twitter: blockscoutcom
+    discord_url: https://discord.gg/blockscout
+    founded_year: 2018
+    organization: Blockscout Limited
+
+  - id: debank
+    name: DeBank
+    logo: ""
+    homepage_url: https://debank.com
+    description: Multi-chain DeFi portfolio tracker showing balances, protocol positions, transaction history, and a social layer for crypto wallets.
+    subcategory_id: portfolio-tracking
+    tags: [portfolio, defi, multichain, wallet-tracking, social]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://cloud.debank.com/docs
+    twitter: DeBank
+    discord_url: https://discord.gg/debank
+    founded_year: 2019
+    organization: DeBank Global
+
+  - id: zapper
+    name: Zapper
+    logo: ""
+    homepage_url: https://zapper.xyz
+    description: DeFi portfolio dashboard tracking investments, LP positions, and NFTs across all major protocols and blockchains.
+    subcategory_id: portfolio-tracking
+    tags: [portfolio, defi, nft, multichain, lp-positions]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://docs.zapper.xyz
+    twitter: zapper_fi
+    discord_url: https://discord.gg/5C4wxPr
+    founded_year: 2019
+    organization: Zapper
+
+  - id: coingecko
+    name: CoinGecko
+    logo: ""
+    homepage_url: https://coingecko.com
+    description: Comprehensive cryptocurrency data platform tracking 10,000+ assets with market data, historical data, and free public API.
+    subcategory_id: market-data
+    tags: [market-data, price, api, research, free, comprehensive]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://www.coingecko.com/en/api/documentation
+    twitter: coingecko
+    discord_url: https://discord.gg/EhrkaCH
+    founded_year: 2014
+    organization: CoinGecko
+    featured: true
+
+  - id: coinmarketcap
+    name: CoinMarketCap
+    logo: ""
+    homepage_url: https://coinmarketcap.com
+    description: The world's most-referenced cryptocurrency market data provider, tracking 20,000+ cryptocurrencies since 2013.
+    subcategory_id: market-data
+    tags: [market-data, price, research, rankings, binance]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://coinmarketcap.com/api/documentation/v1
+    twitter: CoinMarketCap
+    founded_year: 2013
+    organization: CoinMarketCap (Binance)
+
+  - id: chainalysis
+    name: Chainalysis
+    logo: ""
+    homepage_url: https://chainalysis.com
+    description: Blockchain data analytics platform for compliance, investigations, and risk management used by governments and financial institutions.
+    subcategory_id: risk-monitoring
+    tags: [compliance, aml, kyc, investigations, government, enterprise]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://docs.chainalysis.com
+    twitter: chainalysis
+    discord_url: https://discord.gg/chainalysis
+    founded_year: 2014
+    organization: Chainalysis Inc.
+    featured: true
+
+  - id: glassnode
+    name: Glassnode
+    logo: ""
+    homepage_url: https://glassnode.com
+    description: On-chain market intelligence platform delivering deep metrics on Bitcoin, Ethereum, and DeFi for institutional investors.
+    subcategory_id: on-chain-analytics
+    tags: [analytics, on-chain, bitcoin, ethereum, institutional, market-intelligence]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://docs.glassnode.com
+    twitter: glassnode
+    discord_url: https://discord.gg/glassnode
+    founded_year: 2018
+    organization: Glassnode AG
+
+  - id: token-terminal
+    name: Token Terminal
+    logo: ""
+    homepage_url: https://tokenterminal.com
+    description: Financial metrics and data platform for blockchain protocols, providing P/E ratios, revenue, fees, and comparable financial data.
+    subcategory_id: on-chain-analytics
+    tags: [analytics, financials, revenue, protocol-metrics, institutional]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://docs.tokenterminal.com
+    twitter: tokenterminal
+    discord_url: https://discord.gg/tokenterminal
+    founded_year: 2019
+    organization: Token Terminal Ltd

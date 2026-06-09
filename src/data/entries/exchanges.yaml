@@ -1,0 +1,201 @@
+category_id: exchanges
+
+items:
+  - id: binance
+    name: Binance
+    logo: ""
+    homepage_url: https://binance.com
+    description: The world's largest cryptocurrency exchange by trading volume, offering spot, futures, options, and a broad ecosystem of products.
+    subcategory_id: centralized-cex
+    tags: [cex, spot, futures, largest-volume, bnb-chain]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://binance-docs.github.io/apidocs
+    twitter: binance
+    discord_url: https://discord.gg/jE4wt8g2H2
+    founded_year: 2017
+    organization: Binance
+    blockchain_meta:
+      exchange_type: CEX
+      kyc_required: true
+      derivatives: true
+    featured: true
+
+  - id: coinbase
+    name: Coinbase
+    logo: ""
+    homepage_url: https://coinbase.com
+    description: Publicly traded US-regulated cryptocurrency exchange known for compliance, security, and being the largest US crypto exchange.
+    subcategory_id: centralized-cex
+    tags: [cex, regulated, us-exchange, publicly-traded, institutional]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://docs.cloud.coinbase.com
+    twitter: coinbase
+    founded_year: 2012
+    organization: Coinbase Global, Inc.
+    blockchain_meta:
+      exchange_type: CEX
+      kyc_required: true
+      derivatives: true
+    featured: true
+
+  - id: kraken
+    name: Kraken
+    logo: ""
+    homepage_url: https://kraken.com
+    description: Established US-based exchange with strong security record, offering spot, margin, and futures trading with extensive fiat support.
+    subcategory_id: centralized-cex
+    tags: [cex, regulated, security, us-exchange, institutional]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://docs.kraken.com
+    twitter: krakenfx
+    founded_year: 2011
+    organization: Payward Inc.
+    blockchain_meta:
+      exchange_type: CEX
+      kyc_required: true
+      derivatives: true
+
+  - id: okx
+    name: OKX
+    logo: ""
+    homepage_url: https://okx.com
+    description: Global top-tier exchange offering spot, derivatives, copy trading, and a comprehensive Web3 wallet with DEX aggregator.
+    subcategory_id: centralized-cex
+    tags: [cex, derivatives, web3-wallet, defi, global]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://www.okx.com/docs-v5
+    twitter: okx
+    discord_url: https://discord.gg/e6EyvM5QwM
+    founded_year: 2017
+    organization: OKX
+    blockchain_meta:
+      exchange_type: CEX
+      kyc_required: true
+      derivatives: true
+
+  - id: bybit
+    name: Bybit
+    logo: ""
+    homepage_url: https://bybit.com
+    description: Derivatives-focused exchange that has grown to become one of the top crypto exchanges, known for perpetuals and copy trading.
+    subcategory_id: centralized-cex
+    tags: [cex, derivatives, perpetuals, copy-trading, global]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://bybit-exchange.github.io/docs
+    twitter: Bybit_Official
+    discord_url: https://discord.gg/bybit
+    founded_year: 2018
+    organization: Bybit
+    blockchain_meta:
+      exchange_type: CEX
+      kyc_required: true
+      derivatives: true
+
+  - id: uniswap-dex
+    name: Uniswap
+    logo: ""
+    homepage_url: https://app.uniswap.org
+    description: The largest decentralized exchange by volume, using automated market maker pools to enable permissionless token swaps.
+    subcategory_id: decentralized-dex
+    tags: [dex, amm, permissionless, ethereum, multichain]
+    maturity: mainnet
+    open_source: true
+    license: BSL-1.1
+    repo_url: https://github.com/Uniswap/v3-core
+    docs_url: https://docs.uniswap.org
+    twitter: Uniswap
+    discord_url: https://discord.gg/FCfyBSbCU5
+    founded_year: 2018
+    organization: Uniswap Labs
+    blockchain_meta:
+      exchange_type: DEX
+      kyc_required: false
+      supported_chains: [ethereum, arbitrum, polygon, optimism, base, bnb-chain]
+    featured: true
+
+  - id: 1inch
+    name: 1inch
+    logo: ""
+    homepage_url: https://1inch.io
+    description: DEX aggregator and liquidity protocol that splits trades across multiple DEXs to find the best execution price.
+    subcategory_id: dex-aggregators
+    tags: [aggregator, dex, best-price, multichain, limit-orders]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/1inch
+    docs_url: https://docs.1inch.io
+    twitter: 1inch
+    discord_url: https://discord.gg/1inch
+    founded_year: 2019
+    organization: 1inch Network
+    blockchain_meta:
+      exchange_type: DEX
+      kyc_required: false
+      supported_chains: [ethereum, polygon, bnb-chain, arbitrum, optimism, avalanche, base]
+    featured: true
+
+  - id: paraswap
+    name: ParaSwap
+    logo: ""
+    homepage_url: https://paraswap.io
+    description: DEX aggregator providing best-price execution across decentralized exchanges with gas optimization and partial fill support.
+    subcategory_id: dex-aggregators
+    tags: [aggregator, dex, gas-optimization, multichain, api]
+    maturity: mainnet
+    open_source: true
+    repo_url: https://github.com/paraswap/paraswap-dex-lib
+    docs_url: https://developers.paraswap.network
+    twitter: paraswap
+    discord_url: https://discord.gg/Tgjh6amcM
+    founded_year: 2019
+    organization: ParaSwap
+    blockchain_meta:
+      exchange_type: DEX
+      kyc_required: false
+      supported_chains: [ethereum, polygon, bnb-chain, arbitrum, optimism, avalanche, base]
+
+  - id: deribit
+    name: Deribit
+    logo: ""
+    homepage_url: https://deribit.com
+    description: The leading cryptocurrency options exchange, dominating BTC and ETH options volume with institutional-grade infrastructure.
+    subcategory_id: derivatives-exchanges
+    tags: [cex, options, derivatives, bitcoin, ethereum, institutional]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://docs.deribit.com
+    twitter: DeribitExchange
+    discord_url: https://discord.gg/deribit
+    founded_year: 2016
+    organization: Deribit
+    blockchain_meta:
+      exchange_type: CEX
+      kyc_required: true
+      derivatives: true
+
+  - id: cow-protocol
+    name: CoW Protocol
+    logo: ""
+    homepage_url: https://cow.fi
+    description: Intent-based trading protocol using batch auctions and coincidence-of-wants matching to protect users from MEV.
+    subcategory_id: dex-aggregators
+    tags: [dex, intent-based, mev-protection, batch-auctions, cow-swap]
+    maturity: mainnet
+    open_source: true
+    license: GPL-3.0
+    repo_url: https://github.com/cowprotocol/contracts
+    docs_url: https://docs.cow.fi
+    twitter: CoWSwap
+    discord_url: https://discord.gg/cowprotocol
+    founded_year: 2021
+    organization: CoW DAO
+    blockchain_meta:
+      exchange_type: DEX
+      kyc_required: false
+      supported_chains: [ethereum, gnosis-chain, arbitrum, base]

@@ -1,0 +1,296 @@
+category_id: defi-protocols
+
+items:
+  - id: uniswap
+    name: Uniswap
+    logo: ""
+    homepage_url: https://uniswap.org
+    description: The largest decentralized exchange by volume, pioneering the automated market maker model with concentrated liquidity in v3.
+    subcategory_id: dexs-amm
+    tags: [amm, concentrated-liquidity, ethereum, multichain, defi-blue-chip]
+    maturity: mainnet
+    open_source: true
+    license: BSL-1.1
+    repo_url: https://github.com/Uniswap/v3-core
+    docs_url: https://docs.uniswap.org
+    twitter: Uniswap
+    discord_url: https://discord.gg/FCfyBSbCU5
+    founded_year: 2018
+    organization: Uniswap Labs
+    blockchain_meta:
+      protocol_type: AMM
+      supported_chains: [ethereum, arbitrum, polygon, optimism, base, bnb-chain, avalanche]
+    featured: true
+
+  - id: curve-finance
+    name: Curve Finance
+    logo: ""
+    homepage_url: https://curve.fi
+    description: AMM optimized for stablecoin and pegged-asset trading with minimal slippage, home of the influential ve-token governance model.
+    subcategory_id: dexs-amm
+    tags: [amm, stablecoins, low-slippage, vecrv, multichain]
+    maturity: mainnet
+    open_source: true
+    repo_url: https://github.com/curvefi/curve-contract
+    docs_url: https://resources.curve.fi
+    twitter: CurveFinance
+    discord_url: https://discord.gg/rgrfS7W
+    founded_year: 2020
+    blockchain_meta:
+      protocol_type: AMM
+      supported_chains: [ethereum, arbitrum, polygon, optimism, avalanche, fantom]
+
+  - id: aave
+    name: Aave
+    logo: ""
+    homepage_url: https://aave.com
+    description: Leading decentralized lending protocol with variable and stable interest rates, flash loans, and multi-chain deployments.
+    subcategory_id: lending-borrowing
+    tags: [lending, borrowing, flash-loans, multichain, defi-blue-chip]
+    maturity: mainnet
+    open_source: true
+    license: Apache-2.0
+    repo_url: https://github.com/aave/aave-v3-core
+    docs_url: https://docs.aave.com
+    twitter: AaveAave
+    discord_url: https://discord.gg/CvKUrqM
+    founded_year: 2017
+    organization: Aave Companies
+    blockchain_meta:
+      protocol_type: Lending
+      supported_chains: [ethereum, polygon, avalanche, arbitrum, optimism, base, bnb-chain]
+    featured: true
+
+  - id: compound
+    name: Compound
+    logo: ""
+    homepage_url: https://compound.finance
+    description: Algorithmic, autonomous interest rate protocol for the decentralized money market, one of the earliest DeFi lending protocols.
+    subcategory_id: lending-borrowing
+    tags: [lending, borrowing, algorithmic, defi-pioneer, ctoken]
+    maturity: mainnet
+    open_source: true
+    license: BSD-3-Clause
+    repo_url: https://github.com/compound-finance/compound-protocol
+    docs_url: https://docs.compound.finance
+    twitter: compoundfinance
+    discord_url: https://discord.gg/fq6JSPkpJn
+    founded_year: 2018
+    organization: Compound Labs
+    blockchain_meta:
+      protocol_type: Lending
+      supported_chains: [ethereum, arbitrum]
+
+  - id: makerdao
+    name: MakerDAO / Sky
+    logo: ""
+    homepage_url: https://makerdao.com
+    description: Decentralized credit platform issuing DAI, a crypto-collateralized stablecoin, and the pioneer of decentralized governance via MKR.
+    subcategory_id: lending-borrowing
+    tags: [stablecoin, dai, cdp, governance, defi-blue-chip]
+    maturity: mainnet
+    open_source: true
+    license: AGPL-3.0
+    repo_url: https://github.com/makerdao/dss
+    docs_url: https://docs.makerdao.com
+    twitter: MakerDAO
+    founded_year: 2014
+    organization: MakerDAO
+    blockchain_meta:
+      protocol_type: CDP / Stablecoin
+      supported_chains: [ethereum]
+
+  - id: gmx
+    name: GMX
+    logo: ""
+    homepage_url: https://gmx.io
+    description: Decentralized spot and perpetuals exchange on Arbitrum and Avalanche, offering up to 100x leverage with low swap fees.
+    subcategory_id: derivatives-perps
+    tags: [perpetuals, leverage, arbitrum, avalanche, real-yield]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/gmx-io/gmx-contracts
+    docs_url: https://docs.gmx.io
+    twitter: GMX_IO
+    discord_url: https://discord.gg/gmx
+    founded_year: 2021
+    blockchain_meta:
+      protocol_type: Perpetuals
+      supported_chains: [arbitrum, avalanche]
+    featured: true
+
+  - id: synthetix
+    name: Synthetix
+    logo: ""
+    homepage_url: https://synthetix.io
+    description: Decentralized derivatives liquidity protocol providing synthetic asset exposure to crypto, equities, forex, and commodities.
+    subcategory_id: derivatives-perps
+    tags: [synthetic-assets, derivatives, collateral, perpetuals, multichain]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/Synthetixio/synthetix
+    docs_url: https://docs.synthetix.io
+    twitter: synthetix_io
+    discord_url: https://discord.gg/AEdUHzt
+    founded_year: 2017
+    organization: Synthetix Foundation
+    blockchain_meta:
+      protocol_type: Derivatives
+      supported_chains: [ethereum, optimism, base]
+
+  - id: lido
+    name: Lido
+    logo: ""
+    homepage_url: https://lido.fi
+    description: Largest liquid staking protocol for ETH, offering stETH liquid staking derivative and enabling participation without 32 ETH minimum.
+    subcategory_id: liquid-staking
+    tags: [liquid-staking, steth, ethereum, multichain, defi-blue-chip]
+    maturity: mainnet
+    open_source: true
+    license: GPL-3.0
+    repo_url: https://github.com/lidofinance/lido-dao
+    docs_url: https://docs.lido.fi
+    twitter: LidoFinance
+    discord_url: https://discord.gg/lido
+    founded_year: 2020
+    organization: Lido DAO
+    blockchain_meta:
+      protocol_type: Liquid Staking
+      supported_chains: [ethereum, polygon, solana]
+    featured: true
+
+  - id: rocket-pool
+    name: Rocket Pool
+    logo: ""
+    homepage_url: https://rocketpool.net
+    description: Decentralized Ethereum staking protocol enabling permissionless node operation and liquid staking via rETH.
+    subcategory_id: liquid-staking
+    tags: [liquid-staking, reth, decentralized, node-operators, ethereum]
+    maturity: mainnet
+    open_source: true
+    license: GPL-3.0
+    repo_url: https://github.com/rocket-pool/rocketpool
+    docs_url: https://docs.rocketpool.net
+    twitter: Rocket_Pool
+    discord_url: https://discord.gg/rocketpool
+    founded_year: 2016
+    organization: Rocket Pool
+    blockchain_meta:
+      protocol_type: Liquid Staking
+      supported_chains: [ethereum]
+
+  - id: etherfi
+    name: ether.fi
+    logo: ""
+    homepage_url: https://ether.fi
+    description: Non-custodial liquid staking and restaking protocol where stakers retain ownership of validator keys via distributed technology.
+    subcategory_id: liquid-staking
+    tags: [liquid-staking, restaking, eigenlayer, non-custodial, eeth]
+    maturity: mainnet
+    open_source: true
+    repo_url: https://github.com/etherfi-protocol/smart-contracts
+    docs_url: https://etherfi.gitbook.io/etherfi
+    twitter: ether_fi
+    discord_url: https://discord.gg/etherfi
+    founded_year: 2023
+    organization: ether.fi Foundation
+    blockchain_meta:
+      protocol_type: Liquid Restaking
+      supported_chains: [ethereum]
+
+  - id: centrifuge
+    name: Centrifuge
+    logo: ""
+    homepage_url: https://centrifuge.io
+    description: Decentralized platform for bringing real-world assets on-chain, enabling issuers to tokenize and finance illiquid assets.
+    subcategory_id: real-world-assets
+    tags: [rwa, real-world-assets, tokenization, defi, institutional]
+    maturity: mainnet
+    open_source: true
+    license: Apache-2.0
+    repo_url: https://github.com/centrifuge
+    docs_url: https://docs.centrifuge.io
+    twitter: centrifuge
+    discord_url: https://discord.gg/yEi3xe385R
+    founded_year: 2017
+    organization: Centrifuge GmbH
+    blockchain_meta:
+      protocol_type: RWA Tokenization
+      supported_chains: [ethereum, centrifuge-chain]
+
+  - id: maple-finance
+    name: Maple Finance
+    logo: ""
+    homepage_url: https://maple.finance
+    description: Institutional capital marketplace for on-chain credit, connecting institutional borrowers with DeFi lending pools.
+    subcategory_id: real-world-assets
+    tags: [rwa, institutional-lending, credit, uncollateralized, defi]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://maplefinance.gitbook.io/maple
+    twitter: maplefinance
+    discord_url: https://discord.gg/sX6Ef4W
+    founded_year: 2019
+    organization: Maven 11 / Maple
+    blockchain_meta:
+      protocol_type: Credit Protocol
+      supported_chains: [ethereum, solana]
+
+  - id: yearn-finance
+    name: Yearn Finance
+    logo: ""
+    homepage_url: https://yearn.fi
+    description: Decentralized yield aggregator that automatically shifts user funds between DeFi protocols to maximize returns.
+    subcategory_id: yield-aggregators
+    tags: [yield-aggregator, vault, defi-blue-chip, strategy, multichain]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/yearn/yearn-vaults
+    docs_url: https://docs.yearn.fi
+    twitter: yearnfi
+    discord_url: https://discord.gg/6PNv2nF
+    founded_year: 2020
+    blockchain_meta:
+      protocol_type: Yield Aggregator
+      supported_chains: [ethereum, arbitrum, polygon, optimism, fantom]
+
+  - id: morpho
+    name: Morpho
+    logo: ""
+    homepage_url: https://morpho.org
+    description: Peer-to-peer lending layer on top of Aave and Compound, improving rates by matching lenders and borrowers directly.
+    subcategory_id: lending-borrowing
+    tags: [lending, p2p-matching, yield-optimization, ethereum, defi]
+    maturity: mainnet
+    open_source: true
+    license: GPL-2.0
+    repo_url: https://github.com/morpho-org
+    docs_url: https://docs.morpho.org
+    twitter: MorphoLabs
+    discord_url: https://discord.gg/BWXbJMEFQj
+    founded_year: 2021
+    organization: Morpho Labs
+    blockchain_meta:
+      protocol_type: Lending
+      supported_chains: [ethereum, base]
+
+  - id: ondo-finance
+    name: Ondo Finance
+    logo: ""
+    homepage_url: https://ondo.finance
+    description: Institutional-grade DeFi platform offering tokenized US Treasuries and institutional-quality yield products on-chain.
+    subcategory_id: real-world-assets
+    tags: [rwa, tokenized-treasuries, institutional, defi, regulated]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://docs.ondo.finance
+    twitter: OndoFinance
+    discord_url: https://discord.gg/ondofinance
+    founded_year: 2021
+    organization: Ondo Finance
+    blockchain_meta:
+      protocol_type: RWA / Tokenized Securities
+      supported_chains: [ethereum, polygon, solana]

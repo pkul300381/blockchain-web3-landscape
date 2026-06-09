@@ -1,0 +1,163 @@
+category_id: bridges
+
+items:
+  - id: stargate-finance
+    name: Stargate Finance
+    logo: ""
+    homepage_url: https://stargate.finance
+    description: Omnichain liquidity transport protocol built on LayerZero, enabling native asset bridging with unified liquidity pools.
+    subcategory_id: third-party-bridges
+    tags: [bridge, layerzero, native-assets, unified-liquidity, omnichain]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/stargate-protocol/stargate
+    docs_url: https://stargateprotocol.gitbook.io
+    twitter: StargateFinance
+    discord_url: https://discord.gg/NKMJJfAtBe
+    founded_year: 2022
+    organization: LayerZero Labs
+    blockchain_meta:
+      bridge_mechanism: Liquidity Pool
+      supported_bridges: [ethereum, polygon, bnb-chain, avalanche, arbitrum, optimism, base, fantom]
+    featured: true
+
+  - id: hop-protocol
+    name: Hop Protocol
+    logo: ""
+    homepage_url: https://hop.exchange
+    description: Rollup-to-rollup token bridge using a network of AMMs and bonders for fast cross-rollup transfers without waiting for challenge periods.
+    subcategory_id: third-party-bridges
+    tags: [bridge, rollup, amm, ethereum, fast-transfers, l2]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/hop-protocol/hop
+    docs_url: https://docs.hop.exchange
+    twitter: HopProtocol
+    discord_url: https://discord.gg/PwCF88emV4
+    founded_year: 2021
+    organization: Hop DAO
+    blockchain_meta:
+      bridge_mechanism: Liquidity Pool
+      supported_bridges: [ethereum, arbitrum, optimism, polygon, base, gnosis-chain]
+
+  - id: across-protocol
+    name: Across Protocol
+    logo: ""
+    homepage_url: https://across.to
+    description: Cross-chain bridge optimized for speed and low cost using UMA's optimistic oracle and a unified liquidity model.
+    subcategory_id: intent-based
+    tags: [bridge, intent-based, fast, uma, optimistic, ethereum]
+    maturity: mainnet
+    open_source: true
+    license: AGPL-3.0
+    repo_url: https://github.com/across-protocol/contracts
+    docs_url: https://docs.across.to
+    twitter: AcrossProtocol
+    discord_url: https://discord.gg/across
+    founded_year: 2021
+    organization: Risk Labs
+    blockchain_meta:
+      bridge_mechanism: Liquidity Pool
+      supported_bridges: [ethereum, arbitrum, optimism, polygon, base, bnb-chain]
+
+  - id: synapse-protocol
+    name: Synapse Protocol
+    logo: ""
+    homepage_url: https://synapseprotocol.com
+    description: Cross-chain messaging and token bridging protocol with its own Optimistic Rollup, providing fast finality and deep liquidity.
+    subcategory_id: third-party-bridges
+    tags: [bridge, cross-chain, messaging, amm, multichain]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/synapsecns/synapse-contracts
+    docs_url: https://docs.synapseprotocol.com
+    twitter: SynapseProtocol
+    discord_url: https://discord.gg/synapseprotocol
+    founded_year: 2021
+    organization: Synapse DAO
+    blockchain_meta:
+      bridge_mechanism: Lock-Mint
+      supported_bridges: [ethereum, arbitrum, optimism, polygon, bnb-chain, avalanche, base]
+
+  - id: arbitrum-bridge
+    name: Arbitrum Bridge
+    logo: ""
+    homepage_url: https://bridge.arbitrum.io
+    description: Official canonical bridge for transferring assets between Ethereum and Arbitrum One/Nova, with native 7-day withdrawal period.
+    subcategory_id: canonical-bridges
+    tags: [bridge, canonical, arbitrum, ethereum, official]
+    maturity: mainnet
+    open_source: true
+    repo_url: https://github.com/OffchainLabs/nitro
+    docs_url: https://docs.arbitrum.io/asset-bridging
+    twitter: arbitrum
+    discord_url: https://discord.gg/arbitrum
+    founded_year: 2021
+    organization: Offchain Labs
+    blockchain_meta:
+      bridge_mechanism: Lock-Mint
+      fraud_proof_window_days: 7
+      supported_bridges: [ethereum, arbitrum-one, arbitrum-nova]
+
+  - id: op-bridge
+    name: Optimism Bridge
+    logo: ""
+    homepage_url: https://app.optimism.io/bridge
+    description: Official canonical bridge for the OP Stack, enabling deposits and withdrawals between Ethereum and OP Mainnet/Superchain L2s.
+    subcategory_id: canonical-bridges
+    tags: [bridge, canonical, optimism, ethereum, op-stack, superchain]
+    maturity: mainnet
+    open_source: true
+    repo_url: https://github.com/ethereum-optimism/optimism
+    docs_url: https://docs.optimism.io/builders/app-developers/bridging/basics
+    twitter: optimismFND
+    discord_url: https://discord.gg/optimism
+    founded_year: 2021
+    organization: OP Labs
+    blockchain_meta:
+      bridge_mechanism: Lock-Mint
+      fraud_proof_window_days: 7
+      supported_bridges: [ethereum, op-mainnet, base, zora, mode]
+
+  - id: wormhole-bridge
+    name: Wormhole Bridge
+    logo: ""
+    homepage_url: https://wormhole.com/bridge
+    description: Token bridge built on the Wormhole message-passing protocol, supporting native asset transfers across 30+ blockchains.
+    subcategory_id: messaging-protocols
+    tags: [bridge, messaging, cross-chain, multichain, guardian-network]
+    maturity: mainnet
+    open_source: true
+    license: Apache-2.0
+    repo_url: https://github.com/wormhole-foundation/wormhole
+    docs_url: https://docs.wormhole.com
+    twitter: wormhole
+    discord_url: https://discord.gg/wormholecrypto
+    founded_year: 2020
+    organization: Wormhole Foundation
+    blockchain_meta:
+      bridge_mechanism: Lock-Mint
+      supported_bridges: [ethereum, solana, bnb-chain, polygon, avalanche, arbitrum, optimism, aptos, sui]
+
+  - id: axelar-gateway
+    name: Axelar Gateway
+    logo: ""
+    homepage_url: https://axelar.network
+    description: Cross-chain gateway enabling token transfers and contract calls across 50+ blockchains via Axelar's decentralized validator network.
+    subcategory_id: messaging-protocols
+    tags: [bridge, cross-chain, messaging, pos-validators, interoperability]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/axelarnetwork/axelar-core
+    docs_url: https://docs.axelar.dev
+    twitter: axelarcore
+    discord_url: https://discord.gg/aRZ3Ra6f7D
+    founded_year: 2020
+    organization: Axelar Foundation
+    blockchain_meta:
+      bridge_mechanism: Lock-Mint
+      supported_bridges: [ethereum, polygon, avalanche, moonbeam, fantom, arbitrum, optimism, cosmos]

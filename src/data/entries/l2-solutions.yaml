@@ -1,0 +1,311 @@
+category_id: l2-solutions
+
+items:
+  - id: arbitrum-one
+    name: Arbitrum One
+    logo: ""
+    homepage_url: https://arbitrum.io
+    description: Leading optimistic rollup scaling Ethereum with a multi-round fraud proof system and a thriving DeFi ecosystem.
+    subcategory_id: optimistic-rollups
+    tags: [optimistic-rollup, ethereum, defi, evm-equivalent, nitro]
+    maturity: mainnet
+    open_source: true
+    license: BSL-1.1
+    repo_url: https://github.com/OffchainLabs/nitro
+    docs_url: https://docs.arbitrum.io
+    twitter: arbitrum
+    discord_url: https://discord.gg/arbitrum
+    founded_year: 2018
+    organization: Offchain Labs
+    blockchain_meta:
+      evm_compatible: true
+      layer: 2
+      l2_type: Optimistic Rollup
+      settlement_layer: ethereum
+      fraud_proof_window_days: 7
+      tps_real: "40000"
+    featured: true
+
+  - id: op-mainnet
+    name: OP Mainnet
+    logo: ""
+    homepage_url: https://optimism.io
+    description: Optimistic rollup by Optimism, home of the OP Stack and Superchain vision for a network of interoperable L2s.
+    subcategory_id: optimistic-rollups
+    tags: [optimistic-rollup, ethereum, op-stack, superchain, retroactive-public-goods]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/ethereum-optimism/optimism
+    docs_url: https://docs.optimism.io
+    twitter: optimismFND
+    discord_url: https://discord.gg/optimism
+    founded_year: 2019
+    organization: OP Labs / Optimism Foundation
+    blockchain_meta:
+      evm_compatible: true
+      layer: 2
+      l2_type: Optimistic Rollup
+      settlement_layer: ethereum
+      fraud_proof_window_days: 7
+    featured: true
+
+  - id: base
+    name: Base
+    logo: ""
+    homepage_url: https://base.org
+    description: Coinbase-incubated L2 built on the OP Stack, offering a secure, low-cost, developer-friendly on-chain experience.
+    subcategory_id: optimistic-rollups
+    tags: [optimistic-rollup, coinbase, op-stack, superchain, consumer-apps]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/base-org/node
+    docs_url: https://docs.base.org
+    twitter: base
+    discord_url: https://discord.gg/buildonbase
+    founded_year: 2023
+    organization: Coinbase
+    blockchain_meta:
+      evm_compatible: true
+      layer: 2
+      l2_type: Optimistic Rollup
+      settlement_layer: ethereum
+    featured: true
+
+  - id: zksync-era
+    name: zkSync Era
+    logo: ""
+    homepage_url: https://zksync.io
+    description: ZK rollup with EVM compatibility using zkEVM technology, offering native account abstraction and low transaction costs.
+    subcategory_id: zk-rollups
+    tags: [zk-rollup, ethereum, evm-compatible, account-abstraction, zkevm]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/matter-labs/zksync-era
+    docs_url: https://docs.zksync.io
+    twitter: zksync
+    discord_url: https://discord.gg/zksync
+    founded_year: 2018
+    organization: Matter Labs
+    blockchain_meta:
+      evm_compatible: true
+      layer: 2
+      l2_type: ZK Rollup
+      settlement_layer: ethereum
+    featured: true
+
+  - id: starknet
+    name: Starknet
+    logo: ""
+    homepage_url: https://starknet.io
+    description: ZK rollup using STARK proofs and Cairo language, offering provable computation with scalability for complex applications.
+    subcategory_id: zk-rollups
+    tags: [zk-rollup, stark-proofs, cairo-language, gaming, defi]
+    maturity: mainnet
+    open_source: true
+    license: Apache-2.0
+    repo_url: https://github.com/starkware-libs/starknet-specs
+    docs_url: https://docs.starknet.io
+    twitter: Starknet
+    discord_url: https://discord.gg/starknet
+    founded_year: 2018
+    organization: StarkWare
+    blockchain_meta:
+      evm_compatible: false
+      layer: 2
+      l2_type: ZK Rollup
+      settlement_layer: ethereum
+    featured: true
+
+  - id: polygon-zkevm
+    name: Polygon zkEVM
+    logo: ""
+    homepage_url: https://polygon.technology/polygon-zkevm
+    description: ZK rollup with EVM equivalence, using zero-knowledge proofs to verify Ethereum transactions with full opcode compatibility.
+    subcategory_id: zk-rollups
+    tags: [zk-rollup, evm-equivalent, polygon, low-cost]
+    maturity: mainnet
+    open_source: true
+    license: AGPL-3.0
+    repo_url: https://github.com/0xPolygonHermez/zkevm-node
+    docs_url: https://docs.polygon.technology/zkEVM
+    twitter: 0xPolygon
+    discord_url: https://discord.gg/polygon
+    founded_year: 2021
+    organization: Polygon Labs
+    blockchain_meta:
+      evm_compatible: true
+      layer: 2
+      l2_type: ZK Rollup
+      settlement_layer: ethereum
+
+  - id: scroll
+    name: Scroll
+    logo: ""
+    homepage_url: https://scroll.io
+    description: EVM-equivalent ZK rollup built with a bytecode-compatible zkEVM, prioritizing security and Ethereum alignment.
+    subcategory_id: zk-rollups
+    tags: [zk-rollup, evm-equivalent, bytecode-compatible, security-focused]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/scroll-tech/scroll
+    docs_url: https://docs.scroll.io
+    twitter: Scroll_ZKP
+    discord_url: https://discord.gg/scroll
+    founded_year: 2021
+    organization: Scroll Foundation
+    blockchain_meta:
+      evm_compatible: true
+      layer: 2
+      l2_type: ZK Rollup
+      settlement_layer: ethereum
+
+  - id: linea
+    name: Linea
+    logo: ""
+    homepage_url: https://linea.build
+    description: ZK rollup developed by Consensys/MetaMask team, featuring a lattice-based zkEVM and deep MetaMask integration.
+    subcategory_id: zk-rollups
+    tags: [zk-rollup, consensys, metamask, evm-compatible]
+    maturity: mainnet
+    open_source: true
+    repo_url: https://github.com/Consensys/linea-monorepo
+    docs_url: https://docs.linea.build
+    twitter: LineaBuild
+    discord_url: https://discord.gg/linea
+    founded_year: 2023
+    organization: Consensys
+    blockchain_meta:
+      evm_compatible: true
+      layer: 2
+      l2_type: ZK Rollup
+      settlement_layer: ethereum
+
+  - id: mantle
+    name: Mantle Network
+    logo: ""
+    homepage_url: https://mantle.xyz
+    description: Optimistic rollup with a modular architecture using Celestia or EigenDA for data availability, backed by BitDAO.
+    subcategory_id: optimistic-rollups
+    tags: [optimistic-rollup, modular, data-availability, dao-backed]
+    maturity: mainnet
+    open_source: true
+    repo_url: https://github.com/mantlenetworkio/mantle-v2
+    docs_url: https://docs.mantle.xyz
+    twitter: 0xMantle
+    discord_url: https://discord.gg/0xMantle
+    founded_year: 2022
+    organization: Mantle
+    blockchain_meta:
+      evm_compatible: true
+      layer: 2
+      l2_type: Optimistic Rollup
+      settlement_layer: ethereum
+      data_availability: EigenDA
+
+  - id: blast
+    name: Blast
+    logo: ""
+    homepage_url: https://blast.io
+    description: Optimistic rollup with native yield for ETH and stablecoins, automatically earning interest through staking and T-bill integrations.
+    subcategory_id: optimistic-rollups
+    tags: [optimistic-rollup, native-yield, defi, staking]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://docs.blast.io
+    twitter: Blast_L2
+    discord_url: https://discord.gg/blast-l2
+    founded_year: 2023
+    organization: Blast
+    blockchain_meta:
+      evm_compatible: true
+      layer: 2
+      l2_type: Optimistic Rollup
+      settlement_layer: ethereum
+
+  - id: immutablex
+    name: ImmutableX
+    logo: ""
+    homepage_url: https://immutable.com
+    description: ZK-powered Layer 2 for NFTs and gaming, offering gas-free minting and trading with instant transaction confirmation.
+    subcategory_id: validium
+    tags: [validium, nft, gaming, gas-free, stark-proofs]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://docs.immutable.com
+    twitter: Immutable
+    discord_url: https://discord.gg/immutable
+    founded_year: 2018
+    organization: Immutable
+    blockchain_meta:
+      evm_compatible: true
+      layer: 2
+      l2_type: Validium
+      settlement_layer: ethereum
+
+  - id: dydx-chain
+    name: dYdX Chain
+    logo: ""
+    homepage_url: https://dydx.exchange
+    description: Dedicated app-chain for perpetuals trading, migrated from Ethereum to its own Cosmos-based sovereign chain for full control.
+    subcategory_id: app-specific-chains
+    tags: [perpetuals, derivatives, cosmos, app-chain, order-book]
+    maturity: mainnet
+    open_source: true
+    license: GPL-3.0
+    repo_url: https://github.com/dydxprotocol/v4-chain
+    docs_url: https://docs.dydx.exchange
+    twitter: dYdX
+    discord_url: https://discord.gg/dydx
+    founded_year: 2017
+    organization: dYdX Foundation
+    blockchain_meta:
+      evm_compatible: false
+      layer: 2
+      l2_type: other
+      settlement_layer: cosmos
+
+  - id: ronin
+    name: Ronin
+    logo: ""
+    homepage_url: https://roninchain.com
+    description: EVM-compatible sidechain built specifically for the Axie Infinity gaming ecosystem with ultra-low fees.
+    subcategory_id: app-specific-chains
+    tags: [gaming, sidechain, axie-infinity, nft, low-fees]
+    maturity: mainnet
+    open_source: true
+    repo_url: https://github.com/axieinfinity/ronin
+    docs_url: https://docs.roninchain.com
+    twitter: Ronin_Network
+    discord_url: https://discord.gg/ronin
+    founded_year: 2021
+    organization: Sky Mavis
+    blockchain_meta:
+      evm_compatible: true
+      layer: 2
+      l2_type: Sidechain
+      settlement_layer: ethereum
+
+  - id: eigenlayer
+    name: EigenLayer
+    logo: ""
+    homepage_url: https://eigenlayer.xyz
+    description: Restaking protocol enabling ETH stakers to extend cryptoeconomic security to new applications called Actively Validated Services.
+    subcategory_id: data-availability
+    tags: [restaking, avs, data-availability, eigenda, ethereum-security]
+    maturity: mainnet
+    open_source: true
+    license: BSL-1.1
+    repo_url: https://github.com/Layr-Labs/eigenlayer-contracts
+    docs_url: https://docs.eigenlayer.xyz
+    twitter: eigenlayer
+    discord_url: https://discord.gg/eigenlayer
+    founded_year: 2021
+    organization: Eigen Labs
+    blockchain_meta:
+      evm_compatible: true
+      layer: 2
+      data_availability: EigenDA

@@ -1,0 +1,222 @@
+category_id: dev-tools
+
+items:
+  - id: hardhat
+    name: Hardhat
+    logo: ""
+    homepage_url: https://hardhat.org
+    description: The most popular Ethereum development framework for compiling, testing, and deploying smart contracts with a rich plugin ecosystem.
+    subcategory_id: frameworks-sdks
+    tags: [ethereum, smart-contracts, testing, typescript, evm, plugin-ecosystem]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/NomicFoundation/hardhat
+    docs_url: https://hardhat.org/docs
+    twitter: HardhatHQ
+    discord_url: https://discord.gg/bpABjWoaKt
+    founded_year: 2019
+    organization: Nomic Foundation
+    featured: true
+
+  - id: foundry
+    name: Foundry
+    logo: ""
+    homepage_url: https://getfoundry.sh
+    description: Blazing-fast Rust-based Ethereum development toolkit with Forge for testing, Cast for interactions, and Anvil as a local testnet.
+    subcategory_id: frameworks-sdks
+    tags: [ethereum, rust, testing, fast, evm, fuzzing]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/foundry-rs/foundry
+    docs_url: https://book.getfoundry.sh
+    twitter: FoundryRS
+    discord_url: https://discord.gg/foundry-rs
+    founded_year: 2021
+    organization: Paradigm
+    featured: true
+
+  - id: anchor
+    name: Anchor Framework
+    logo: ""
+    homepage_url: https://www.anchor-lang.com
+    description: The most widely used Solana smart contract framework providing Rust macros, client-side libraries, and testing utilities.
+    subcategory_id: frameworks-sdks
+    tags: [solana, rust, smart-contracts, testing, sdk]
+    maturity: mainnet
+    open_source: true
+    license: Apache-2.0
+    repo_url: https://github.com/coral-xyz/anchor
+    docs_url: https://www.anchor-lang.com/docs
+    twitter: anchorlang
+    discord_url: https://discord.gg/NHHGSXAnXk
+    founded_year: 2021
+    organization: Coral
+
+  - id: thirdweb
+    name: thirdweb
+    logo: ""
+    homepage_url: https://thirdweb.com
+    description: Full-stack Web3 development platform with SDKs for any language, pre-built smart contracts, auth, storage, and RPC services.
+    subcategory_id: frameworks-sdks
+    tags: [sdk, full-stack, multichain, smart-contracts, auth, defi, nft, gaming]
+    maturity: mainnet
+    open_source: true
+    license: Apache-2.0
+    repo_url: https://github.com/thirdweb-dev/js
+    docs_url: https://portal.thirdweb.com
+    twitter: thirdweb
+    discord_url: https://discord.gg/thirdweb
+    founded_year: 2021
+    organization: thirdweb
+    featured: true
+
+  - id: viem
+    name: viem
+    logo: ""
+    homepage_url: https://viem.sh
+    description: Type-safe, performant TypeScript library for interacting with Ethereum, designed as a modern replacement for ethers.js.
+    subcategory_id: apis-abstraction
+    tags: [typescript, ethereum, evm, type-safe, performant, library]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/wevm/viem
+    docs_url: https://viem.sh/docs/getting-started
+    twitter: wevm_dev
+    discord_url: https://discord.gg/xCUz9FRF97
+    founded_year: 2022
+    organization: wevm
+    featured: true
+
+  - id: wagmi
+    name: wagmi
+    logo: ""
+    homepage_url: https://wagmi.sh
+    description: React hooks library for Ethereum, built on viem, making it easy to connect wallets and interact with contracts in React apps.
+    subcategory_id: apis-abstraction
+    tags: [react, hooks, ethereum, evm, typescript, wallet-connect]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/wevm/wagmi
+    docs_url: https://wagmi.sh/docs/getting-started
+    twitter: wevm_dev
+    discord_url: https://discord.gg/xCUz9FRF97
+    founded_year: 2021
+    organization: wevm
+
+  - id: ethers-js
+    name: ethers.js
+    logo: ""
+    homepage_url: https://ethers.org
+    description: Complete and compact JavaScript/TypeScript library for interacting with the Ethereum blockchain and its ecosystem.
+    subcategory_id: apis-abstraction
+    tags: [javascript, typescript, ethereum, evm, library, web3]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/ethers-io/ethers.js
+    docs_url: https://docs.ethers.org
+    twitter: ethers_io
+    discord_url: https://discord.gg/Kqm2j27
+    founded_year: 2016
+
+  - id: slither
+    name: Slither
+    logo: ""
+    homepage_url: https://github.com/crytic/slither
+    description: Static analysis framework for Solidity smart contracts by Trail of Bits, detecting vulnerabilities and providing code optimization hints.
+    subcategory_id: security-auditing
+    tags: [security, static-analysis, solidity, vulnerability-detection, trail-of-bits]
+    maturity: mainnet
+    open_source: true
+    license: AGPL-3.0
+    repo_url: https://github.com/crytic/slither
+    docs_url: https://github.com/crytic/slither/wiki
+    twitter: trailofbits
+    founded_year: 2018
+    organization: Trail of Bits
+
+  - id: openzeppelin
+    name: OpenZeppelin
+    logo: ""
+    homepage_url: https://openzeppelin.com
+    description: The standard library for secure Solidity smart contracts, plus audit services, Defender security platform, and access control tools.
+    subcategory_id: security-auditing
+    tags: [solidity, security, library, standards, erc20, erc721, access-control]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/OpenZeppelin/openzeppelin-contracts
+    docs_url: https://docs.openzeppelin.com
+    twitter: OpenZeppelin
+    discord_url: https://discord.gg/openzeppelin
+    founded_year: 2016
+    organization: OpenZeppelin
+    featured: true
+
+  - id: tenderly
+    name: Tenderly
+    logo: ""
+    homepage_url: https://tenderly.co
+    description: Full-stack Web3 development platform with transaction simulation, debugging, monitoring, alerts, and DevNets for testing.
+    subcategory_id: frameworks-sdks
+    tags: [debugging, simulation, monitoring, devnets, testing, ethereum]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://docs.tenderly.co
+    twitter: TenderlyApp
+    discord_url: https://discord.gg/fBvDJYR
+    founded_year: 2018
+    organization: Tenderly
+
+  - id: solidity
+    name: Solidity
+    logo: ""
+    homepage_url: https://soliditylang.org
+    description: Statically-typed contract-oriented programming language for implementing smart contracts on the Ethereum Virtual Machine.
+    subcategory_id: languages-compilers
+    tags: [language, smart-contracts, ethereum, evm, compiler, statically-typed]
+    maturity: mainnet
+    open_source: true
+    license: GPL-3.0
+    repo_url: https://github.com/ethereum/solidity
+    docs_url: https://docs.soliditylang.org
+    twitter: solidity_lang
+    founded_year: 2014
+    organization: Ethereum Foundation
+    featured: true
+
+  - id: cairo-lang
+    name: Cairo
+    logo: ""
+    homepage_url: https://www.cairo-lang.org
+    description: Provable programming language for writing STARK-proven programs, used to develop smart contracts on Starknet.
+    subcategory_id: languages-compilers
+    tags: [language, stark-proofs, starknet, provable-programs, zero-knowledge]
+    maturity: mainnet
+    open_source: true
+    license: Apache-2.0
+    repo_url: https://github.com/starkware-libs/cairo
+    docs_url: https://docs.cairo-lang.org
+    twitter: CairoLang
+    discord_url: https://discord.gg/starknet
+    founded_year: 2020
+    organization: StarkWare
+
+  - id: moralis
+    name: Moralis
+    logo: ""
+    homepage_url: https://moralis.io
+    description: Web3 data APIs providing token data, wallet history, NFT metadata, and real-time streams across multiple blockchains.
+    subcategory_id: apis-abstraction
+    tags: [api, nft, token-data, multichain, wallet-data, real-time]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://docs.moralis.io
+    twitter: MoralisWeb3
+    discord_url: https://discord.gg/moralis
+    founded_year: 2020
+    organization: Moralis
