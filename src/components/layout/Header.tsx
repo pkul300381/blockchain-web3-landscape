@@ -10,6 +10,7 @@ interface HeaderProps {
   onCategoryClick: (id: string) => void
   onMenuToggle: () => void
   hasActiveFilters: boolean
+  onLogoClick: () => void
 }
 
 export default function Header({
@@ -21,6 +22,7 @@ export default function Header({
   onCategoryClick,
   onMenuToggle,
   hasActiveFilters,
+  onLogoClick,
 }: HeaderProps) {
   const inputRef = useRef<HTMLInputElement>(null)
 
@@ -50,13 +52,16 @@ export default function Header({
         </button>
 
         {/* Logo */}
-        <div className="flex items-center gap-2 flex-shrink-0">
+        <button
+          onClick={onLogoClick}
+          className="flex items-center gap-2 flex-shrink-0 text-left focus:outline-none hover:opacity-80 transition-opacity cursor-pointer"
+        >
           <span className="text-2xl">🌐</span>
           <div className="hidden sm:block">
             <h1 className="text-base font-black text-slate-800 leading-tight">Web3 Landscape</h1>
             <p className="text-[10px] text-slate-400 leading-none">Blockchain & DLT Ecosystem</p>
           </div>
-        </div>
+        </button>
 
         {/* Search */}
         <div className="flex-1 max-w-lg mx-auto relative">
@@ -97,6 +102,24 @@ export default function Header({
           )}
           <span>projects</span>
         </div>
+
+        {/* Opus branding */}
+        <a
+          href="https://opustechglobal.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex-shrink-0 flex items-center gap-2 pl-3 ml-1 border-l border-slate-200 hover:opacity-75 transition-opacity"
+          aria-label="Powered by Opus Tech Global"
+          title="Powered by Opus Tech Global"
+        >
+          <span className="text-[10px] text-slate-400 hidden lg:block whitespace-nowrap">Powered by</span>
+          <img
+            src="/opus-logo.png"
+            alt="Opus Tech Global"
+            height={22}
+            className="h-[22px] w-auto"
+          />
+        </a>
       </div>
 
       {/* Category quick-nav */}

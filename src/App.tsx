@@ -47,13 +47,20 @@ export default function App() {
     if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
   }, [])
 
+  const handleLogoClick = useCallback(() => {
+    const mainEl = document.querySelector('main')
+    if (mainEl) {
+      mainEl.scrollTo({ top: 0, behavior: 'smooth' })
+    }
+  }, [])
+
   const filteredCount = useMemo(
     () => filteredCategories.reduce((acc, c) => acc + (c.items?.length ?? 0), 0),
     [filteredCategories],
   )
 
   return (
-    <div className="min-h-screen bg-slate-50 flex flex-col">
+    <div className="h-screen bg-slate-50 flex flex-col overflow-hidden">
       <Header
         searchQuery={filters.search_query}
         onSearch={setSearch}
@@ -61,6 +68,7 @@ export default function App() {
         filteredCount={filteredCount}
         categories={categories}
         onCategoryClick={handleCategoryClick}
+        onLogoClick={handleLogoClick}
         onMenuToggle={() => setSidebarOpen(true)}
         hasActiveFilters={hasActiveFilters}
       />

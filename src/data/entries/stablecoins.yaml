@@ -208,3 +208,102 @@ items:
       supported_chains: [tron, ethereum, bnb-chain]
     market_data:
       coingecko_id: usdd
+
+  - id: rlusd
+    name: Ripple USD (RLUSD)
+    logo: ""
+    homepage_url: https://ripple.com/rlusd
+    description: Enterprise-grade fiat-backed stablecoin issued by Ripple, fully backed by US dollar deposits, short-term US Treasuries, and cash equivalents.
+    subcategory_id: fiat-backed
+    tags: [usd-peg, fiat-backed, regulated, ripple, multichain]
+    maturity: mainnet
+    open_source: false
+    twitter: Ripple
+    founded_year: 2024
+    organization: Ripple
+    blockchain_meta:
+      stablecoin_type: Fiat-backed
+      peg_asset: USD
+      supported_chains: [xrp-ledger, ethereum, base, optimism]
+    market_data:
+      coingecko_id: ripple-usd
+
+  - id: usd1
+    name: World Liberty USD (USD1)
+    logo: ""
+    homepage_url: https://worldlibertyfinancial.com
+    description: Fiat-backed stablecoin issued by World Liberty Financial in partnership with BitGo, backed by USD deposits and US Treasuries.
+    subcategory_id: fiat-backed
+    tags: [usd-peg, fiat-backed, wlfi, defi, ethereum]
+    maturity: mainnet
+    open_source: false
+    twitter: worldlibertyfi
+    founded_year: 2025
+    organization: World Liberty Financial
+    blockchain_meta:
+      stablecoin_type: Fiat-backed
+      peg_asset: USD
+      supported_chains: [ethereum]
+    market_data:
+      coingecko_id: usd1
+
+  - id: usds
+    name: Sky USD (USDS)
+    logo: ""
+    homepage_url: https://sky.money
+    description: Decentralized, over-collateralized stablecoin of the Sky ecosystem (formerly MakerDAO), upgraded from DAI to offer native rewards and ecosystem integration.
+    subcategory_id: crypto-backed
+    tags: [usd-peg, crypto-backed, decentralized, sky, makerdao, defi]
+    maturity: mainnet
+    open_source: true
+    docs_url: https://docs.sky.money
+    twitter: SkyEcosystem
+    founded_year: 2024
+    organization: Sky
+    blockchain_meta:
+      stablecoin_type: Crypto-backed
+      peg_asset: USD
+      supported_chains: [ethereum, solana, arbitrum, optimism, base]
+    market_data:
+      coingecko_id: usds
+
+  - id: usde
+    name: Ethena USDe
+    logo: ""
+    homepage_url: https://ethena.fi
+    description: Synthetic dollar protocol built on Ethereum that provides a crypto-native, yield-bearing alternative to traditional stablecoins, collateralized by delta-neutral hedging.
+    subcategory_id: algorithmic
+    tags: [usd-peg, algorithmic, synthetic-dollar, delta-neutral, yield-bearing, ethena, defi]
+    maturity: mainnet
+    open_source: true
+    repo_url: https://github.com/ethena-labs
+    docs_url: https://ethena-labs.gitbook.io/ethena-labs/
+    twitter: ethena_labs
+    founded_year: 2023
+    organization: Ethena Labs
+    blockchain_meta:
+      stablecoin_type: Algorithmic
+      peg_asset: USD
+      supported_chains: [ethereum, arbitrum, optimism, base, solana, bnb-chain]
+    market_data:
+      coingecko_id: ethena-usde
+
+  - id: usdg
+    name: Global Dollar (USDG)
+    logo: ""
+    homepage_url: https://globaldollar.com
+    description: Regulated, fiat-backed stablecoin issued by Paxos and supported by the Global Dollar Network, distributing reserve yield to its network participants.
+    subcategory_id: fiat-backed
+    tags: [usd-peg, fiat-backed, regulated, paxos, global-dollar-network]
+    maturity: mainnet
+    open_source: false
+    twitter: Paxos
+    founded_year: 2024
+    organization: Paxos / Global Dollar Network
+    blockchain_meta:
+      stablecoin_type: Fiat-backed
+      peg_asset: USD
+      supported_chains: [ethereum, solana]
+    market_data:
+      coingecko_id: global-dollar
+
