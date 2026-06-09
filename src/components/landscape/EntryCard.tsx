@@ -1,31 +1,13 @@
 import React from 'react'
 import type { LandscapeEntry } from '../../data/schema'
 import { MaturityBadge } from '../ui/Badge'
+import EntryLogo from '../ui/EntryLogo'
 
 interface EntryCardProps {
   entry: LandscapeEntry
   categoryColor: string
   isSelected: boolean
   onSelect: (id: string) => void
-}
-
-function getInitials(name: string): string {
-  return name
-    .split(/\s+/)
-    .slice(0, 2)
-    .map((w) => w[0]?.toUpperCase() ?? '')
-    .join('')
-}
-
-function LogoFallback({ name, color }: { name: string; color: string }) {
-  return (
-    <div
-      className="w-12 h-12 rounded-lg flex items-center justify-center text-white font-bold text-sm flex-shrink-0"
-      style={{ backgroundColor: color }}
-    >
-      {getInitials(name)}
-    </div>
-  )
 }
 
 const EntryCard = React.memo(function EntryCard({ entry, categoryColor, isSelected, onSelect }: EntryCardProps) {
@@ -48,26 +30,7 @@ const EntryCard = React.memo(function EntryCard({ entry, categoryColor, isSelect
       )}
 
       <div className="relative">
-        {entry.logo ? (
-          <img
-            src={`/logos/${entry.logo}`}
-            alt={`${entry.name} logo`}
-            loading="lazy"
-            width={48}
-            height={48}
-            className="w-12 h-12 object-contain rounded-lg"
-            onError={(e) => {
-              const target = e.currentTarget
-              target.style.display = 'none'
-              const fallback = target.nextElementSibling as HTMLElement | null
-              if (fallback) fallback.style.display = 'flex'
-            }}
-          />
-        ) : null}
-        <div style={{ display: entry.logo ? 'none' : 'flex' }}>
-          <LogoFallback name={entry.name} color={categoryColor} />
-        </div>
-
+        <EntryLogo entry={entry} size={48} fallbackColor={categoryColor} />
         <div className="absolute -bottom-1 -right-1">
           <MaturityBadge status={entry.maturity} compact />
         </div>

@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import type { LandscapeEntry, Category } from '../../data/schema'
 import { CATEGORY_COLOR_MAP } from '../../data/categories'
 import { MaturityBadge, OpenSourceBadge, TagChip } from '../ui/Badge'
+import EntryLogo from '../ui/EntryLogo'
 
 interface DetailPanelProps {
   entry: LandscapeEntry | null
@@ -32,10 +33,6 @@ function ExternalLink({ href, label, icon }: { href?: string; label: string; ico
       {label}
     </a>
   )
-}
-
-function getInitials(name: string): string {
-  return name.split(/\s+/).slice(0, 2).map((w) => w[0]?.toUpperCase() ?? '').join('')
 }
 
 export default function DetailPanel({ entry, categories, onClose }: DetailPanelProps) {
@@ -73,12 +70,7 @@ export default function DetailPanel({ entry, categories, onClose }: DetailPanelP
 
         {/* Header */}
         <div className="flex items-start gap-3 p-5 border-b border-slate-100 flex-shrink-0">
-          <div
-            className="w-14 h-14 rounded-xl flex items-center justify-center text-white font-bold text-lg flex-shrink-0"
-            style={{ backgroundColor: colors.bg }}
-          >
-            {getInitials(entry.name)}
-          </div>
+          <EntryLogo entry={entry} size={56} fallbackColor={colors.bg} />
           <div className="flex-1 min-w-0">
             <h2 id="detail-panel-title" className="font-bold text-slate-800 text-base leading-tight">
               {entry.name}

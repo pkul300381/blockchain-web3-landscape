@@ -1,6 +1,7 @@
 import type { LandscapeEntry, Category } from '../../data/schema'
 import { CATEGORY_COLOR_MAP } from '../../data/categories'
 import { MaturityBadge } from '../ui/Badge'
+import EntryLogo from '../ui/EntryLogo'
 
 interface SearchResultsProps {
   results: LandscapeEntry[]
@@ -8,10 +9,6 @@ interface SearchResultsProps {
   categories: Category[]
   selectedEntryId: string | null
   onSelect: (id: string) => void
-}
-
-function getInitials(name: string): string {
-  return name.split(/\s+/).slice(0, 2).map((w) => w[0]?.toUpperCase() ?? '').join('')
 }
 
 export default function SearchResults({ results, query, categories, selectedEntryId, onSelect }: SearchResultsProps) {
@@ -46,12 +43,7 @@ export default function SearchResults({ results, query, categories, selectedEntr
                 ${isSelected ? 'border-2 bg-white shadow-md' : 'border border-slate-200 bg-white hover:border-slate-300 hover:shadow-sm'}`}
               style={isSelected ? { borderColor: colors.bg } : undefined}
             >
-              <div
-                className="w-10 h-10 flex-shrink-0 rounded-lg flex items-center justify-center text-white font-bold text-sm"
-                style={{ backgroundColor: colors.bg }}
-              >
-                {getInitials(entry.name)}
-              </div>
+              <EntryLogo entry={entry} size={40} fallbackColor={colors.bg} className="flex-shrink-0" />
               <div className="flex-1 min-w-0">
                 <div className="flex items-center gap-2 flex-wrap">
                   <span className="font-semibold text-slate-800">{entry.name}</span>
