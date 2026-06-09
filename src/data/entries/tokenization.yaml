@@ -34,6 +34,31 @@ items:
     founded_year: 2017
     organization: Centrifuge GmbH
 
+  - id: tokeny
+    name: Tokeny
+    logo: ""
+    homepage_url: https://tokeny.com
+    description: Onchain finance operating system for financial institutions to issue, manage, and distribute tokenized securities with embedded compliance — creators of the open-source ERC-3643 (T-REX) standard with $32B+ tokenized across 120+ institutional clients.
+    subcategory_id: securities-funds
+    tags: [securities, tokenization, erc-3643, t-rex, compliance, institutional, rwa, evm]
+    maturity: mainnet
+    open_source: true
+    license: GPL-3.0
+    repo_url: https://github.com/TokenySolutions/T-REX
+    docs_url: https://tokeny.com/resource-center
+    twitter: TokenySolutions
+    founded_year: 2017
+    organization: Tokeny (Apex Group)
+    headquarters: Amsterdam, Netherlands
+    blockchain_meta:
+      evm_compatible: true
+      supported_chains: [ethereum, polygon, avalanche, hedera]
+      protocol_type: Securities Tokenization
+    audits:
+      - auditor: Hacken
+        date: "2023-01-01"
+        status: audited
+
   - id: polymath
     name: Polymath
     logo: ""
