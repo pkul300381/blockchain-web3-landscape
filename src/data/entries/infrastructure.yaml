@@ -234,3 +234,25 @@ items:
       native_token: AXL
     market_data:
       coingecko_id: axelar
+
+  - id: olas
+    name: Olas
+    logo: ""
+    homepage_url: https://olas.network
+    description: A decentralized network for building, running, and co-owning autonomous AI agent services off-chain with blockchain-based governance and developer incentives.
+    subcategory_id: compute
+    tags: [decentralized-compute, ai-agents, autonomous-services, co-ownership, multi-agent-systems]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/valory-xyz/open-autonomy
+    docs_url: https://docs.olas.network
+    twitter: OlasNetwork
+    discord_url: https://discord.gg/olas
+    founded_year: 2022
+    organization: Valory
+    blockchain_meta:
+      supported_chains: [ethereum, gnosis, polygon, arbitrum, optimism, base, solana]
+    market_data:
+      coingecko_id: autonolas
+
