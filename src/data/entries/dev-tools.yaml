@@ -220,3 +220,34 @@ items:
     discord_url: https://discord.gg/moralis
     founded_year: 2020
     organization: Moralis
+
+  - id: nowpayments
+    name: NOWPayments
+    logo: ""
+    homepage_url: https://nowpayments.io
+    description: Crypto payment gateway API enabling merchants to accept 300+ cryptocurrencies, perform payouts, and integrate checkout widgets.
+    subcategory_id: apis-abstraction
+    tags: [api, payment-gateway, merchant-services, payments, payouts, e-commerce]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://documenter.getpostman.com/view/7907941/TVtRGj5j
+    twitter: NOWPayments_io
+    founded_year: 2019
+    organization: NOWPayments
+
+  - id: walletconnect
+    name: WalletConnect
+    logo: ""
+    homepage_url: https://walletconnect.com
+    description: Open-source web3 connectivity protocol enabling secure, decentralized communication between dApps and mobile or browser wallets.
+    subcategory_id: apis-abstraction
+    tags: [sdk, protocol, connection, web3-auth, wallet-connect, standard]
+    maturity: mainnet
+    open_source: true
+    license: Apache-2.0
+    repo_url: https://github.com/WalletConnect/WalletConnectKotlin
+    docs_url: https://docs.walletconnect.com
+    twitter: WalletConnect
+    founded_year: 2018
+    organization: Reown
+

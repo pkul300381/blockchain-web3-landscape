@@ -188,3 +188,32 @@ items:
     discord_url: https://discord.gg/tokenterminal
     founded_year: 2019
     organization: Token Terminal Ltd
+
+  - id: coinstats
+    name: CoinStats
+    logo: ""
+    homepage_url: https://coinstats.app
+    description: All-in-one cryptocurrency portfolio tracker and wallet analytics platform supporting 120+ blockchains and 200+ exchanges.
+    subcategory_id: portfolio-tracking
+    tags: [portfolio, analytics, wallet-tracking, defi, multichain, tax-tools]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://coinstats.app/api-docs/
+    twitter: CoinStats
+    founded_year: 2017
+    organization: CoinStats
+
+  - id: coinapi
+    name: CoinAPI
+    logo: ""
+    homepage_url: https://www.coinapi.io
+    description: High-performance cryptocurrency market data provider offering real-time and historical price, trade, and order book APIs.
+    subcategory_id: market-data
+    tags: [market-data, price, trades, order-book, historical-data, institutional]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://docs.coinapi.io
+    twitter: coinapi_io
+    founded_year: 2016
+    organization: CoinAPI
+

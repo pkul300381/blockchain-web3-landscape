@@ -256,3 +256,34 @@ items:
     market_data:
       coingecko_id: autonolas
 
+  - id: nownodes
+    name: NOWNodes
+    logo: ""
+    homepage_url: https://nownodes.io
+    description: Node-as-a-Service provider offering reliable RPC, WebSockets, and blockbook API access to 100+ major blockchain networks.
+    subcategory_id: node-providers
+    tags: [node-provider, rpc, websocket, blockbook, multichain, developer-tools]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://docs.nownodes.io
+    twitter: NOWNodes
+    founded_year: 2020
+    organization: NOWNodes
+
+  - id: web3-storage
+    name: Web3.Storage
+    logo: ""
+    homepage_url: https://web3.storage
+    description: Simple, decentralized storage API and client library built on IPFS and Filecoin for permanent, content-addressed data storage.
+    subcategory_id: storage
+    tags: [storage, decentralized, ipfs, filecoin, content-addressed, developer-tools]
+    maturity: mainnet
+    open_source: true
+    license: MIT
+    repo_url: https://github.com/web3-storage/w3up
+    docs_url: https://web3.storage
+    twitter: Web3Storage
+    founded_year: 2021
+    organization: Protocol Labs
+
+
