@@ -309,3 +309,61 @@ items:
       evm_compatible: true
       layer: 2
       data_availability: EigenDA
+
+  - id: arbitrum-sepolia
+    name: Arbitrum Sepolia
+    logo: ""
+    homepage_url: https://sepolia.arbiscan.io
+    description: The primary L2 testnet for Arbitrum, settling on the Ethereum Sepolia testnet, allowing developers to test Nitro optimistic rollups.
+    subcategory_id: optimistic-rollups
+    tags: [optimistic-rollup, testnet, arbitrum, ethereum, evm]
+    maturity: testnet
+    open_source: true
+    docs_url: https://docs.arbitrum.io
+    twitter: arbitrum
+    founded_year: 2023
+    organization: Offchain Labs
+    blockchain_meta:
+      evm_compatible: true
+      layer: 2
+      l2_type: Optimistic Rollup
+      settlement_layer: sepolia
+
+  - id: optimism-sepolia
+    name: OP Sepolia
+    logo: ""
+    homepage_url: https://sepolia-optimism.etherscan.io
+    description: The primary L2 testnet for the Optimism network, settling on Ethereum Sepolia, built on the modular OP Stack infrastructure.
+    subcategory_id: optimistic-rollups
+    tags: [optimistic-rollup, testnet, optimism, op-stack, evm]
+    maturity: testnet
+    open_source: true
+    docs_url: https://docs.optimism.io
+    twitter: optimismFND
+    founded_year: 2023
+    organization: OP Labs
+    blockchain_meta:
+      evm_compatible: true
+      layer: 2
+      l2_type: Optimistic Rollup
+      settlement_layer: sepolia
+
+  - id: base-sepolia
+    name: Base Sepolia
+    logo: ""
+    homepage_url: https://sepolia.basescan.org
+    description: Coinbase's developer testnet for Base, settling on Ethereum Sepolia, providing a low-cost sandbox for testing L2 consumer applications.
+    subcategory_id: optimistic-rollups
+    tags: [optimistic-rollup, testnet, base, coinbase, evm]
+    maturity: testnet
+    open_source: true
+    docs_url: https://docs.base.org
+    twitter: base
+    founded_year: 2023
+    organization: Coinbase
+    blockchain_meta:
+      evm_compatible: true
+      layer: 2
+      l2_type: Optimistic Rollup
+      settlement_layer: sepolia
+
