@@ -523,3 +523,124 @@ items:
       mainnet_launch_year: 2018
     market_data:
       coingecko_id: tezos
+
+  - id: sepolia
+    name: Sepolia
+    logo: ""
+    homepage_url: https://sepolia.otterscan.io
+    description: The primary proof-of-stake testnet for Ethereum, used by developers to test smart contracts and decentralized applications before deploying to mainnet.
+    subcategory_id: evm-compatible
+    tags: [evm, testnet, ethereum, devnet, pos]
+    maturity: testnet
+    open_source: true
+    docs_url: https://ethereum.org/developers/docs/networks/#sepolia
+    twitter: ethereum
+    founded_year: 2021
+    organization: Ethereum Foundation
+    blockchain_meta:
+      native_token: SEP-ETH
+      consensus: PoS
+      evm_compatible: true
+      layer: 1
+      block_time_seconds: 12
+
+  - id: holesky
+    name: Holesky
+    logo: ""
+    homepage_url: https://holesky.etherscan.io
+    description: Ethereum's primary staking, infrastructure, and protocol developer testnet, which replaced Goerli to support larger validator sets.
+    subcategory_id: evm-compatible
+    tags: [evm, testnet, ethereum, devnet, staking]
+    maturity: testnet
+    open_source: true
+    docs_url: https://ethereum.org/developers/docs/networks/#holesky
+    twitter: ethereum
+    founded_year: 2023
+    organization: Ethereum Foundation
+    blockchain_meta:
+      native_token: Hol-ETH
+      consensus: PoS
+      evm_compatible: true
+      layer: 1
+      block_time_seconds: 12
+
+  - id: amoy-testnet
+    name: Polygon Amoy Testnet
+    logo: ""
+    homepage_url: https://amoy.polygonscan.com
+    description: The primary testnet for Polygon PoS based on Ethereum Sepolia, providing a low-cost testing environment for Polygon developers.
+    subcategory_id: evm-compatible
+    tags: [evm, testnet, polygon, sidechain, pos]
+    maturity: testnet
+    open_source: true
+    docs_url: https://docs.polygon.technology/pos/networks/
+    twitter: 0xpolygon
+    founded_year: 2024
+    organization: Polygon Labs
+    blockchain_meta:
+      native_token: POL
+      consensus: PoS
+      evm_compatible: true
+      layer: 1
+      block_time_seconds: 2
+
+  - id: solana-devnet
+    name: Solana Devnet
+    logo: ""
+    homepage_url: https://explorer.solana.com/?cluster=devnet
+    description: Solana's primary developer network, offering a sandboxed environment with free devnet tokens for testing high-throughput programs.
+    subcategory_id: non-evm
+    tags: [testnet, solana, devnet, non-evm, poh]
+    maturity: testnet
+    open_source: true
+    docs_url: https://docs.solana.com/clusters#devnet
+    twitter: solana
+    founded_year: 2020
+    organization: Solana Foundation
+    blockchain_meta:
+      native_token: SOL
+      consensus: PoH
+      evm_compatible: false
+      layer: 1
+      block_time_seconds: 0.4
+
+  - id: bsc-testnet
+    name: BNB Smart Chain Testnet
+    logo: ""
+    homepage_url: https://testnet.bscscan.com
+    description: The developer test network for the BNB Chain ecosystem, allowing deployment and testing of EVM smart contracts.
+    subcategory_id: evm-compatible
+    tags: [evm, testnet, bnb-chain, binance, low-fees]
+    maturity: testnet
+    open_source: true
+    docs_url: https://docs.bnbchain.org
+    twitter: bnbchain
+    founded_year: 2020
+    organization: BNB Chain Foundation
+    blockchain_meta:
+      native_token: tBNB
+      consensus: DPoS
+      evm_compatible: true
+      layer: 1
+      block_time_seconds: 3
+
+  - id: avalanche-fuji
+    name: Avalanche Fuji Testnet
+    logo: ""
+    homepage_url: https://subnets-testnet.avax.network
+    description: The official testnet for the Avalanche network, allowing developers to test smart contracts and custom Subnet configurations.
+    subcategory_id: evm-compatible
+    tags: [evm, testnet, avalanche, subnets, fuji]
+    maturity: testnet
+    open_source: true
+    docs_url: https://docs.avax.network
+    twitter: avax
+    founded_year: 2020
+    organization: Ava Labs
+    blockchain_meta:
+      native_token: AVAX
+      consensus: BFT
+      evm_compatible: true
+      layer: 1
+      finality_seconds: 1
+

@@ -199,3 +199,22 @@ items:
       exchange_type: DEX
       kyc_required: false
       supported_chains: [ethereum, gnosis-chain, arbitrum, base]
+
+  - id: changenow
+    name: ChangeNOW
+    logo: ""
+    homepage_url: https://changenow.io
+    description: Non-custodial instant cryptocurrency exchange service offering APIs for crypto swaps, fiat on/off-ramps, and payment processing widgets.
+    subcategory_id: centralized-cex
+    tags: [cex, instant-exchange, non-custodial, swap-api, fiat-ramp]
+    maturity: mainnet
+    open_source: false
+    docs_url: https://changenow.io/developers
+    twitter: ChangeNOW_io
+    founded_year: 2017
+    organization: ChangeNOW
+    blockchain_meta:
+      exchange_type: CEX
+      kyc_required: false
+      derivatives: false
+
